@@ -1,0 +1,41 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_6/sim/fifo_generator_6.v" \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_3/sim/fifo_generator_3.v" \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_2/sim/fifo_generator_2.v" \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_8/sim/fifo_generator_8.v" \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_7/sim/fifo_generator_7.v" \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_1/sim/fifo_generator_1.v" \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../kyber_final.ip_user_files/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+"../../../../kyber_final.ip_user_files/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" \
+"../../../../kyber_final.ip_user_files/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../kyber_final.ip_user_files/ip/dist_mem_gen_7/sim/dist_mem_gen_7.v" \
+"../../../../kyber_final.ip_user_files/ip/dist_mem_gen_6/sim/dist_mem_gen_6.v" \
+"../../../../kyber_final.ip_user_files/ip/dist_mem_gen_5/sim/dist_mem_gen_5.v" \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_5/sim/fifo_generator_5.v" \
+"../../../../kyber_final.ip_user_files/ip/fifo_generator_4/sim/fifo_generator_4.v" \
+"../../../../design_files/Kyber_Client.v" \
+"../../../../design_files/Kyber_Server.v" \
+"../../../../design_files/Kyber_top.v" \
+"../../../../design_files/NTT_core_Client.v" \
+"../../../../design_files/NTT_core_Server.v" \
+"../../../../design_files/butterfly_Client.v" \
+"../../../../design_files/butterfly_Server.v" \
+"../../../../design_files/decode_Client.v" \
+"../../../../design_files/decode_Server.v" \
+"../../../../design_files/decode_keccak.v" \
+"../../../../design_files/encode_Client.v" \
+"../../../../design_files/encode_Server.v" \
+"../../../../design_files/hash_core_Client.v" \
+"../../../../design_files/hash_core_Server.v" \
+"../../../../design_files/mux4to2.v" \
+"../../../../design_files/pattern.v" \
+"../../../../design_files/reduc.v" \
+"../../../../simulate_files/Kyber_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

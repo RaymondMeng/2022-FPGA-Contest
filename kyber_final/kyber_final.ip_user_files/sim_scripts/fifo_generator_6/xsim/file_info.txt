@@ -1,0 +1,2 @@
+fifo_generator_6.v,verilog,xil_defaultlib,../../../ip/fifo_generator_6/sim/fifo_generator_6.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

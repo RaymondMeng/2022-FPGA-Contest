@@ -1,0 +1,25 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_11/sim/c_shift_ram_11.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_8/sim/c_shift_ram_8.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_6/sim/c_shift_ram_6.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_5/sim/c_shift_ram_5.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_4/sim/c_shift_ram_4.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_3/sim/c_shift_ram_3.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_1/sim/c_shift_ram_1.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd" \
+"../../../../kyber_final.ip_user_files/ip/mult_gen_0/sim/mult_gen_0.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_2/sim/c_shift_ram_2.vhd" \
+"../../../../kyber_final.ip_user_files/ip/c_shift_ram_9/sim/c_shift_ram_9.vhd" \
+"../../../../design_files/Keccak1600.vhd" \
+"../../../../design_files/RegisterFDRE.vhd" \
+"../../../../design_files/Round.vhd" \
+"../../../../design_files/StateMachine.vhd" \
+"../../../../design_files/chi.vhd" \
+"../../../../design_files/iota.vhd" \
+"../../../../design_files/pi.vhd" \
+"../../../../design_files/rho.vhd" \
+"../../../../design_files/theta.vhd" \
+
+# Do not sort compile order
+nosort

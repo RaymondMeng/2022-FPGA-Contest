@@ -1,0 +1,1974 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov  6 17:31:55 2022
+# Process ID: 24664
+# Current directory: C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1
+# Command line: vivado.exe -log Kyber_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Kyber_top.tcl
+# Log file: C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/Kyber_top.vds
+# Journal file: C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Kyber_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/ip_files/fifo_generator_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top Kyber_top -part xc7a200tfbg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15420 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 482.422 ; gain = 106.520
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Kyber_top' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_top.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Kyber_Server' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_Server.v:2]
+INFO: [Synth 8-6157] synthesizing module 'NTT_core_Server' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Server.v:2]
+WARNING: [Synth 8-151] case item 6'b011000 is unreachable [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Server.v:434]
+WARNING: [Synth 8-151] case item 6'b011001 is unreachable [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Server.v:434]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Server.v:564]
+INFO: [Synth 8-6157] synthesizing module 'butterfly_Ser' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/butterfly_Server.v:2]
+INFO: [Synth 8-6157] synthesizing module 'mult_gen_0' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mult_gen_0' (1#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'reduc' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/reduc.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'reduc' (2#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/reduc.v:2]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_0' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_0' (3#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_1' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_1' (4#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_9' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_9_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_9' (5#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_9_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'butterfly_Ser' (6#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/butterfly_Server.v:2]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_5' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/dist_mem_gen_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_5' (7#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/dist_mem_gen_5_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_6' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/dist_mem_gen_6_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_6' (8#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/dist_mem_gen_6_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_7' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/dist_mem_gen_7_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_7' (9#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/dist_mem_gen_7_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (10#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_2' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_2' (11#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (12#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mux4to2' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/mux4to2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux4to2' (13#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/mux4to2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_2' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_2' (14#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_3' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_3' (15#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_4' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_4' (16#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_4_stub.v:6]
+WARNING: [Synth 8-689] width (6) of port connection 'Q' does not match port width (8) of module 'c_shift_ram_4' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Server.v:662]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_5' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_5' (17#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_5_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_6' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_6_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_6' (18#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_6_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_8' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_8_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_8' (19#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_8_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'c_shift_ram_11' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_11_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'c_shift_ram_11' (20#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/c_shift_ram_11_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NTT_core_Server' (21#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Server.v:2]
+INFO: [Synth 8-6157] synthesizing module 'hash_core_Server' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/hash_core_Server.v:1]
+INFO: [Synth 8-638] synthesizing module 'Keccak1600' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Keccak1600.vhd:41]
+INFO: [Synth 8-3491] module 'Round' declared at 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:19' bound to instance 'RoundFunction' of component 'Round' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Keccak1600.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'Round' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:39]
+	Parameter SIZE bound to: 1600 - type: integer 
+INFO: [Synth 8-3491] module 'RegisterFDRE' declared at 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/RegisterFDRE.vhd:18' bound to instance 'Reg' of component 'RegisterFDRE' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'RegisterFDRE' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/RegisterFDRE.vhd:37]
+	Parameter SIZE bound to: 1600 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegisterFDRE' (22#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/RegisterFDRE.vhd:37]
+INFO: [Synth 8-3491] module 'theta' declared at 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/theta.vhd:19' bound to instance 'T' of component 'theta' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'theta' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/theta.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'theta' (23#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/theta.vhd:28]
+INFO: [Synth 8-3491] module 'rho' declared at 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/rho.vhd:19' bound to instance 'R' of component 'rho' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'rho' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/rho.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'rho' (24#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/rho.vhd:28]
+INFO: [Synth 8-3491] module 'pi' declared at 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/pi.vhd:19' bound to instance 'P' of component 'pi' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'pi' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/pi.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'pi' (25#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/pi.vhd:28]
+INFO: [Synth 8-3491] module 'chi' declared at 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/chi.vhd:19' bound to instance 'C' of component 'chi' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'chi' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/chi.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'chi' (26#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/chi.vhd:28]
+INFO: [Synth 8-3491] module 'iota' declared at 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/iota.vhd:19' bound to instance 'I' of component 'iota' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'iota' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/iota.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'iota' (27#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/iota.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Round' (28#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Round.vhd:39]
+INFO: [Synth 8-3491] module 'StateMachine' declared at 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/StateMachine.vhd:19' bound to instance 'FSM' of component 'StateMachine' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Keccak1600.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'StateMachine' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/StateMachine.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'StateMachine' (29#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/StateMachine.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Keccak1600' (30#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Keccak1600.vhd:41]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_0' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_0' (31#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_1' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_1' (32#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_7' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_7_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_7' (33#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_7_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_8' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_8_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_8' (34#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_8_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'decode_keccak' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/decode_keccak.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'decode_keccak' (35#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/decode_keccak.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'hash_core_Server' (36#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/hash_core_Server.v:1]
+INFO: [Synth 8-6157] synthesizing module 'decode_Server' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/decode_Server.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'decode_Server' (37#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/decode_Server.v:2]
+INFO: [Synth 8-6157] synthesizing module 'encode_Server' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/encode_Server.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'encode_Server' (38#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/encode_Server.v:2]
+INFO: [Synth 8-6157] synthesizing module 'pattern' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/pattern.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pattern' (39#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/pattern.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_2' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_2' (40#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_3' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_3' (41#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_4' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_4' (42#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_5' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_5' (43#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Kyber_Server' (44#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_Server.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Kyber_Client' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_Client.v:2]
+INFO: [Synth 8-6157] synthesizing module 'NTT_core_Client' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Client.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Client.v:422]
+INFO: [Synth 8-6157] synthesizing module 'butterfly_Cli' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/butterfly_Client.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'butterfly_Cli' (45#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/butterfly_Client.v:2]
+WARNING: [Synth 8-689] width (5) of port connection 'Q' does not match port width (6) of module 'c_shift_ram_3' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Client.v:497]
+WARNING: [Synth 8-689] width (6) of port connection 'Q' does not match port width (8) of module 'c_shift_ram_4' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Client.v:499]
+INFO: [Synth 8-6155] done synthesizing module 'NTT_core_Client' (46#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/NTT_core_Client.v:2]
+INFO: [Synth 8-6157] synthesizing module 'hash_core_Client' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/hash_core_Client.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hash_core_Client' (47#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/hash_core_Client.v:1]
+INFO: [Synth 8-6157] synthesizing module 'decode_Client' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/decode_Client.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'decode_Client' (48#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/decode_Client.v:2]
+INFO: [Synth 8-6157] synthesizing module 'encode_Client' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/encode_Client.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'encode_Client' (49#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/encode_Client.v:2]
+WARNING: [Synth 8-689] width (32) of port connection 'dout' does not match port width (34) of module 'fifo_generator_3' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_Client.v:505]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_6' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_6_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_6' (50#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/realtime/fifo_generator_6_stub.v:6]
+INFO: [Synth 8-4471] merging register 'req_c_r1_reg' into 'OFIFO_req_r1_reg' [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_Client.v:449]
+WARNING: [Synth 8-6014] Unused sequential element req_c_r1_reg was removed.  [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_Client.v:449]
+INFO: [Synth 8-6155] done synthesizing module 'Kyber_Client' (51#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_Client.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Kyber_top' (52#1) [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/Kyber_top.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 569.684 ; gain = 193.781
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 569.684 ; gain = 193.781
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 569.684 ; gain = 193.781
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'S/ntt/RAM0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'S/ntt/RAM0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'S/ntt/RAM1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'S/ntt/RAM1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'C/ntt/RAM0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'C/ntt/RAM0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'C/ntt/RAM1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'C/ntt/RAM1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'S/ntt/RAM4'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'S/ntt/RAM4'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'C/ntt/RAM4'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'C/ntt/RAM4'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'S/ntt/RAM2'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'S/ntt/RAM2'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'S/ntt/RAM3'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'S/ntt/RAM3'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'C/ntt/RAM2'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'C/ntt/RAM2'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'C/ntt/RAM3'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'C/ntt/RAM3'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'S/ntt/BU/S0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'S/ntt/BU/S0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'S/ntt/BU/S1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'S/ntt/BU/S1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'C/ntt/BU/S0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'C/ntt/BU/S0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'C/ntt/BU/S1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_0/c_shift_ram_0/c_shift_ram_0_in_context.xdc] for cell 'C/ntt/BU/S1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_1/c_shift_ram_1/c_shift_ram_1_in_context.xdc] for cell 'S/ntt/BU/S2'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_1/c_shift_ram_1/c_shift_ram_1_in_context.xdc] for cell 'S/ntt/BU/S2'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_1/c_shift_ram_1/c_shift_ram_1_in_context.xdc] for cell 'S/ntt/BU/S3'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_1/c_shift_ram_1/c_shift_ram_1_in_context.xdc] for cell 'S/ntt/BU/S3'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_1/c_shift_ram_1/c_shift_ram_1_in_context.xdc] for cell 'C/ntt/BU/S2'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_1/c_shift_ram_1/c_shift_ram_1_in_context.xdc] for cell 'C/ntt/BU/S2'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_1/c_shift_ram_1/c_shift_ram_1_in_context.xdc] for cell 'C/ntt/BU/S3'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_1/c_shift_ram_1/c_shift_ram_1_in_context.xdc] for cell 'C/ntt/BU/S3'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_11/c_shift_ram_11/c_shift_ram_11_in_context.xdc] for cell 'S/ntt/S11'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_11/c_shift_ram_11/c_shift_ram_11_in_context.xdc] for cell 'S/ntt/S11'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_11/c_shift_ram_11/c_shift_ram_11_in_context.xdc] for cell 'C/ntt/S11'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_11/c_shift_ram_11/c_shift_ram_11_in_context.xdc] for cell 'C/ntt/S11'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_2/c_shift_ram_2/c_shift_ram_2_in_context.xdc] for cell 'S/ntt/S3'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_2/c_shift_ram_2/c_shift_ram_2_in_context.xdc] for cell 'S/ntt/S3'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_3/c_shift_ram_3/c_shift_ram_3_in_context.xdc] for cell 'S/ntt/S4'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_3/c_shift_ram_3/c_shift_ram_3_in_context.xdc] for cell 'S/ntt/S4'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_3/c_shift_ram_3/c_shift_ram_3_in_context.xdc] for cell 'C/ntt/S4'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_3/c_shift_ram_3/c_shift_ram_3_in_context.xdc] for cell 'C/ntt/S4'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_4/c_shift_ram_4/c_shift_ram_4_in_context.xdc] for cell 'S/ntt/S5'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_4/c_shift_ram_4/c_shift_ram_4_in_context.xdc] for cell 'S/ntt/S5'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_4/c_shift_ram_4/c_shift_ram_4_in_context.xdc] for cell 'S/ntt/S6'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_4/c_shift_ram_4/c_shift_ram_4_in_context.xdc] for cell 'S/ntt/S6'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_4/c_shift_ram_4/c_shift_ram_4_in_context.xdc] for cell 'C/ntt/S5'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_4/c_shift_ram_4/c_shift_ram_4_in_context.xdc] for cell 'C/ntt/S5'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_4/c_shift_ram_4/c_shift_ram_4_in_context.xdc] for cell 'C/ntt/S6'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_4/c_shift_ram_4/c_shift_ram_4_in_context.xdc] for cell 'C/ntt/S6'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_5/c_shift_ram_5/c_shift_ram_5_in_context.xdc] for cell 'S/ntt/S7'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_5/c_shift_ram_5/c_shift_ram_5_in_context.xdc] for cell 'S/ntt/S7'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_5/c_shift_ram_5/c_shift_ram_5_in_context.xdc] for cell 'C/ntt/S7'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_5/c_shift_ram_5/c_shift_ram_5_in_context.xdc] for cell 'C/ntt/S7'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_6/c_shift_ram_6/c_shift_ram_6_in_context.xdc] for cell 'S/ntt/S9'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_6/c_shift_ram_6/c_shift_ram_6_in_context.xdc] for cell 'S/ntt/S9'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_6/c_shift_ram_6/c_shift_ram_6_in_context.xdc] for cell 'C/ntt/S9'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_6/c_shift_ram_6/c_shift_ram_6_in_context.xdc] for cell 'C/ntt/S9'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_8/c_shift_ram_8/c_shift_ram_8_in_context.xdc] for cell 'S/ntt/S10'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_8/c_shift_ram_8/c_shift_ram_8_in_context.xdc] for cell 'S/ntt/S10'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_8/c_shift_ram_8/c_shift_ram_8_in_context.xdc] for cell 'C/ntt/S10'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_8/c_shift_ram_8/c_shift_ram_8_in_context.xdc] for cell 'C/ntt/S10'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_9/c_shift_ram_9/c_shift_ram_0_in_context.xdc] for cell 'S/ntt/BU/S12'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_9/c_shift_ram_9/c_shift_ram_0_in_context.xdc] for cell 'S/ntt/BU/S12'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_9/c_shift_ram_9/c_shift_ram_0_in_context.xdc] for cell 'S/ntt/BU/S13'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/c_shift_ram_9/c_shift_ram_9/c_shift_ram_0_in_context.xdc] for cell 'S/ntt/BU/S13'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_5/dist_mem_gen_5/dist_mem_gen_5_in_context.xdc] for cell 'S/ntt/ROM0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_5/dist_mem_gen_5/dist_mem_gen_5_in_context.xdc] for cell 'S/ntt/ROM0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_5/dist_mem_gen_5/dist_mem_gen_5_in_context.xdc] for cell 'C/ntt/ROM0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_5/dist_mem_gen_5/dist_mem_gen_5_in_context.xdc] for cell 'C/ntt/ROM0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_6/dist_mem_gen_6/dist_mem_gen_6_in_context.xdc] for cell 'S/ntt/ROM1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_6/dist_mem_gen_6/dist_mem_gen_6_in_context.xdc] for cell 'S/ntt/ROM1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_6/dist_mem_gen_6/dist_mem_gen_6_in_context.xdc] for cell 'C/ntt/ROM1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_6/dist_mem_gen_6/dist_mem_gen_6_in_context.xdc] for cell 'C/ntt/ROM1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_7/dist_mem_gen_7/dist_mem_gen_7_in_context.xdc] for cell 'S/ntt/ROM2'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_7/dist_mem_gen_7/dist_mem_gen_7_in_context.xdc] for cell 'S/ntt/ROM2'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_7/dist_mem_gen_7/dist_mem_gen_7_in_context.xdc] for cell 'C/ntt/ROM2'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/dist_mem_gen_7/dist_mem_gen_7/dist_mem_gen_7_in_context.xdc] for cell 'C/ntt/ROM2'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_0/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'S/hash/fifo0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_0/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'S/hash/fifo0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_0/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'C/hash/fifo0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_0/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'C/hash/fifo0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'S/hash/fifo1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'S/hash/fifo1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'C/hash/fifo1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_1/fifo_generator_1/fifo_generator_1_in_context.xdc] for cell 'C/hash/fifo1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'S/IFIFO'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'S/IFIFO'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'C/IFIFO'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_2/fifo_generator_2/fifo_generator_2_in_context.xdc] for cell 'C/IFIFO'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_3/fifo_generator_3/fifo_generator_3_in_context.xdc] for cell 'S/OFIFO'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_3/fifo_generator_3/fifo_generator_3_in_context.xdc] for cell 'S/OFIFO'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_3/fifo_generator_3/fifo_generator_3_in_context.xdc] for cell 'C/OFIFO'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_3/fifo_generator_3/fifo_generator_3_in_context.xdc] for cell 'C/OFIFO'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_4/fifo_generator_4/fifo_generator_4_in_context.xdc] for cell 'S/DFIFO0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_4/fifo_generator_4/fifo_generator_4_in_context.xdc] for cell 'S/DFIFO0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_5/fifo_generator_5/fifo_generator_5_in_context.xdc] for cell 'S/DFIFO1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_5/fifo_generator_5/fifo_generator_5_in_context.xdc] for cell 'S/DFIFO1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_7/fifo_generator_7/fifo_generator_7_in_context.xdc] for cell 'S/hash/fifo2'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_7/fifo_generator_7/fifo_generator_7_in_context.xdc] for cell 'S/hash/fifo2'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_7/fifo_generator_7/fifo_generator_7_in_context.xdc] for cell 'C/hash/fifo2'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_7/fifo_generator_7/fifo_generator_7_in_context.xdc] for cell 'C/hash/fifo2'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_8/fifo_generator_8/fifo_generator_8_in_context.xdc] for cell 'S/hash/fifo8'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_8/fifo_generator_8/fifo_generator_8_in_context.xdc] for cell 'S/hash/fifo8'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_8/fifo_generator_8/fifo_generator_8_in_context.xdc] for cell 'C/hash/fifo8'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_8/fifo_generator_8/fifo_generator_8_in_context.xdc] for cell 'C/hash/fifo8'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'S/ntt/BU/M0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'S/ntt/BU/M0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'S/ntt/BU/M1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'S/ntt/BU/M1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'C/ntt/BU/M0'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'C/ntt/BU/M0'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'C/ntt/BU/M1'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'C/ntt/BU/M1'
+Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_6/fifo_generator_6/fifo_generator_6_in_context.xdc] for cell 'C/DFIFO'
+Finished Parsing XDC File [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/.Xil/Vivado-24664-LAPTOP-IP0GL19C/fifo_generator_6/fifo_generator_6/fifo_generator_6_in_context.xdc] for cell 'C/DFIFO'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1010.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1010.840 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1010.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1010.840 ; gain = 634.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1010.840 ; gain = 634.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for S/ntt/RAM0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/RAM0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/RAM1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/RAM1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/RAM4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/RAM4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/RAM2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/RAM2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/RAM3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/RAM3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/BU/S0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/BU/S0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/BU/S1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/BU/S1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/BU/S2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/BU/S2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/BU/S3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/BU/S3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/S11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/S11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/S3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/S4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/S4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/S5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/S5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/S6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/S6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/S7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/S7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/S9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/S9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/S10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/S10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/BU/S12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/BU/S13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/ROM0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/ROM0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/ROM1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/ROM1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/ROM2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/ROM2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/hash/fifo0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/hash/fifo0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/hash/fifo1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/hash/fifo1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/IFIFO. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/IFIFO. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/OFIFO. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/OFIFO. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/DFIFO0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/DFIFO1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/hash/fifo2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/hash/fifo2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/hash/fifo8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/hash/fifo8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/BU/M0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/BU/M0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for S/ntt/BU/M1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/ntt/BU/M1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for C/DFIFO. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1010.840 ; gain = 634.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/butterfly_Server.v:124]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/butterfly_Server.v:124]
+INFO: [Synth 8-5544] ROM "q_sum0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_sum1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_diff0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_diff1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fifo0_req" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "m_ena" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_k" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_NTT" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ctrl_butt" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "req_noise" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "req_noise_done0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ena_sft" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ready_t" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "finish" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fifo0_req" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "m_ena" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_k" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_NTT" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ctrl_butt" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "req_noise" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "req_noise_done0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ena_sft" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ready_t" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "finish" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ctr_i0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ctr_i0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samp0_q0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samp1_q0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samp2_q0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samp3_q0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'StateMachine'
+INFO: [Synth 8-5546] ROM "CONST" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NEXT_STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "RESET_LFSR" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ENABLE_RF" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RESET_RF" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DONE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NEXT_STATE" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fifo_data_dropped" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fifo_GENA_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "patt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "eta3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "endp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "keccak_init" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "extend" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ififo_last0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "dout_ctr_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_rnd_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "din_ctr_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "din_rnd_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "d" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "d0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "sigma" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "m" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hash_pk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hash_c" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "z" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ready_pk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rot_ctr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "rot_ctr0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "pad_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pad_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "pad_ctr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "absorb_ctr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "CCA_enc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ififo_mode" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ofifo_ena" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "ofifo_ena" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "u_rnd_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "u_ctr_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "dout" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "q_sum0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_sum1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_diff0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_diff1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fifo0_req" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "req_D" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_k" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_NTT" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_NTT" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ctrl_butt" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "req_noise" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "req_noise_done0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ena_sft" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ready_u" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ready_c" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fifo_data_dropped" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fifo_GENA_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "valid" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sftreg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "keccak_init" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "extend" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ififo_last0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "din_ctr_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "din_rnd_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_ctr_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_rnd_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pad_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pad_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "absorb_ctr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ofifo_ena" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Common 17-14] Message 'Synth 8-5544' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 s_reset |                               00 |                               00
+                  s_init |                               01 |                               01
+                 s_round |                               10 |                               10
+                  s_done |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'sequential' in module 'StateMachine'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1010.840 ; gain = 634.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |Kyber_Server  |           1|     28243|
+|2     |Kyber_Client  |           1|     25108|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3538] Detected potentially large (wide) register Q_buf_reg [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/RegisterFDRE.vhd:56]
+INFO: [Synth 8-3538] Detected potentially large (wide) register Q_buf_reg [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/RegisterFDRE.vhd:56]
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   6 Input     15 Bit       Adders := 4     
+	   5 Input     13 Bit       Adders := 4     
+	   2 Input     13 Bit       Adders := 32    
+	   3 Input     13 Bit       Adders := 16    
+	   2 Input     12 Bit       Adders := 14    
+	   3 Input     11 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 6     
+	   2 Input      7 Bit       Adders := 11    
+	   2 Input      6 Bit       Adders := 16    
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 10    
+	   2 Input      3 Bit       Adders := 8     
+	   7 Input      3 Bit       Adders := 8     
+	   2 Input      2 Bit       Adders := 10    
++---XORs : 
+	   5 Input    320 Bit         XORs := 2     
+	   2 Input     64 Bit         XORs := 110   
+	   3 Input     64 Bit         XORs := 2     
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input     13 Bit         XORs := 6     
+	   2 Input      1 Bit         XORs := 10    
+	   4 Input      1 Bit         XORs := 2     
++---Registers : 
+	             1600 Bit    Registers := 2     
+	              256 Bit    Registers := 14    
+	               73 Bit    Registers := 6     
+	               52 Bit    Registers := 2     
+	               48 Bit    Registers := 4     
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 25    
+	               22 Bit    Registers := 1     
+	               15 Bit    Registers := 8     
+	               13 Bit    Registers := 16    
+	               12 Bit    Registers := 46    
+	               11 Bit    Registers := 25    
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 15    
+	                6 Bit    Registers := 17    
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 18    
+	                3 Bit    Registers := 12    
+	                2 Bit    Registers := 14    
+	                1 Bit    Registers := 87    
++---Muxes : 
+	   2 Input   1600 Bit        Muxes := 2     
+	   2 Input    256 Bit        Muxes := 7     
+	   4 Input    256 Bit        Muxes := 1     
+	   6 Input     73 Bit        Muxes := 2     
+	   3 Input     73 Bit        Muxes := 2     
+	   2 Input     73 Bit        Muxes := 6     
+	  25 Input     64 Bit        Muxes := 2     
+	   6 Input     51 Bit        Muxes := 2     
+	   2 Input     48 Bit        Muxes := 1     
+	   2 Input     34 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 10    
+	   4 Input     32 Bit        Muxes := 1     
+	  21 Input     32 Bit        Muxes := 1     
+	  11 Input     32 Bit        Muxes := 1     
+	  15 Input     32 Bit        Muxes := 1     
+	   4 Input     25 Bit        Muxes := 1     
+	   3 Input     25 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 16    
+	   4 Input     24 Bit        Muxes := 3     
+	   5 Input     24 Bit        Muxes := 5     
+	   6 Input     24 Bit        Muxes := 4     
+	   9 Input     24 Bit        Muxes := 1     
+	   3 Input     24 Bit        Muxes := 5     
+	  23 Input     24 Bit        Muxes := 1     
+	   2 Input     23 Bit        Muxes := 2     
+	   2 Input     22 Bit        Muxes := 4     
+	   3 Input     22 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 2     
+	   6 Input     15 Bit        Muxes := 4     
+	   3 Input     13 Bit        Muxes := 8     
+	   2 Input     12 Bit        Muxes := 74    
+	   3 Input     12 Bit        Muxes := 4     
+	   4 Input     12 Bit        Muxes := 2     
+	   8 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 5     
+	   7 Input     10 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 9     
+	   5 Input      7 Bit        Muxes := 2     
+	   7 Input      7 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   6 Input      7 Bit        Muxes := 2     
+	   8 Input      7 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 2     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 49    
+	   6 Input      6 Bit        Muxes := 3     
+	   5 Input      6 Bit        Muxes := 3     
+	  12 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   8 Input      6 Bit        Muxes := 1     
+	   9 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 39    
+	  24 Input      5 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 50    
+	   3 Input      4 Bit        Muxes := 5     
+	  14 Input      4 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	  18 Input      4 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 6     
+	  16 Input      3 Bit        Muxes := 2     
+	  10 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 5     
+	  14 Input      3 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 5     
+	   4 Input      2 Bit        Muxes := 27    
+	  12 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 3     
+	  10 Input      2 Bit        Muxes := 3     
+	   8 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 30    
+	  11 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 104   
+	   6 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 26    
+	   8 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 15    
+	  42 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 2     
+	  37 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3538] Detected potentially large (wide) register Q_buf_reg [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/RegisterFDRE.vhd:56]
+INFO: [Synth 8-3538] Detected potentially large (wide) register Q_buf_reg [C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/design_files/RegisterFDRE.vhd:56]
+Hierarchical RTL Component report 
+Module reduc__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input     15 Bit       Adders := 1     
+	   5 Input     13 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               15 Bit    Registers := 2     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     15 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+Module reduc__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input     15 Bit       Adders := 1     
+	   5 Input     13 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               15 Bit    Registers := 2     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     15 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+Module butterfly_Ser 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 8     
+	   3 Input     13 Bit       Adders := 8     
+	   2 Input     12 Bit       Adders := 2     
++---XORs : 
+	   2 Input     13 Bit         XORs := 3     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               13 Bit    Registers := 4     
+	               12 Bit    Registers := 14    
+	               11 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   3 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 25    
+	   3 Input     12 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+Module mux4to2__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__6 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__7 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__8 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__9 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__10 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__11 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__12 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module NTT_core_Server 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 4     
+	   2 Input     12 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 1     
+	   7 Input      3 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 10    
+	               12 Bit    Registers := 8     
+	               11 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 6     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     48 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 6     
+	   4 Input     24 Bit        Muxes := 2     
+	   5 Input     24 Bit        Muxes := 2     
+	   6 Input     24 Bit        Muxes := 3     
+	   9 Input     24 Bit        Muxes := 1     
+	   3 Input     24 Bit        Muxes := 1     
+	   2 Input     23 Bit        Muxes := 2     
+	   2 Input     22 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 10    
+	   8 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 3     
+	   5 Input      7 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 2     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 16    
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 6     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  16 Input      3 Bit        Muxes := 2     
+	  10 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 3     
+	  14 Input      3 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 12    
+	   6 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 3     
+Module RegisterFDRE__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	             1600 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   1600 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module theta__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   5 Input    320 Bit         XORs := 1     
+	   2 Input     64 Bit         XORs := 29    
+	   3 Input     64 Bit         XORs := 1     
+Module chi__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 25    
+Module iota__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
+Module StateMachine__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	  25 Input     64 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module decode_keccak__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module hash_core_Server 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input     24 Bit        Muxes := 1     
+	   3 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 2     
+Module decode_Server 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               52 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                7 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  23 Input     24 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   5 Input      6 Bit        Muxes := 1     
+	  24 Input      5 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module encode_Server 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module pattern__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input     73 Bit        Muxes := 1     
+	   3 Input     73 Bit        Muxes := 1     
+	   6 Input     51 Bit        Muxes := 1     
+Module Kyber_Server 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	              256 Bit    Registers := 8     
+	               73 Bit    Registers := 3     
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 19    
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 4     
+	   2 Input     73 Bit        Muxes := 3     
+	   2 Input     34 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 2     
+	  21 Input     32 Bit        Muxes := 1     
+	   4 Input     25 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   3 Input     22 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	  12 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 17    
+	   6 Input      6 Bit        Muxes := 1     
+	   5 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 14    
+	   2 Input      4 Bit        Muxes := 14    
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 28    
+	   5 Input      1 Bit        Muxes := 5     
+	  42 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 3     
+	   9 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+Module reduc__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input     15 Bit       Adders := 1     
+	   5 Input     13 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               15 Bit    Registers := 2     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     15 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+Module reduc 
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input     15 Bit       Adders := 1     
+	   5 Input     13 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               15 Bit    Registers := 2     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     15 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+Module butterfly_Cli 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 8     
+	   3 Input     13 Bit       Adders := 8     
++---XORs : 
+	   2 Input     13 Bit         XORs := 3     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               13 Bit    Registers := 4     
+	               12 Bit    Registers := 12    
+	               11 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 25    
+	   3 Input     12 Bit        Muxes := 1     
+Module mux4to2__13 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__14 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__15 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__16 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__17 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__18 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__19 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__20 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__21 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__22 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2__23 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module mux4to2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module NTT_core_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 4     
+	   2 Input     12 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   7 Input      3 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 9     
+	               22 Bit    Registers := 1     
+	               12 Bit    Registers := 6     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   5 Input     24 Bit        Muxes := 3     
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 5     
+	   3 Input     24 Bit        Muxes := 2     
+	   6 Input     24 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 10    
+	   2 Input     10 Bit        Muxes := 2     
+	   7 Input     10 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   6 Input      7 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	   5 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 7     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	  10 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 5     
+	   7 Input      1 Bit        Muxes := 2     
+Module RegisterFDRE 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	             1600 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   1600 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module theta 
+Detailed RTL Component Info : 
++---XORs : 
+	   5 Input    320 Bit         XORs := 1     
+	   2 Input     64 Bit         XORs := 29    
+	   3 Input     64 Bit         XORs := 1     
+Module chi 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 25    
+Module iota 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
+Module StateMachine 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	  25 Input     64 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module decode_keccak 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module hash_core_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input     24 Bit        Muxes := 1     
+	   3 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 2     
+Module decode_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module encode_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               52 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  11 Input     32 Bit        Muxes := 1     
+	   5 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module pattern 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input     73 Bit        Muxes := 1     
+	   3 Input     73 Bit        Muxes := 1     
+	   6 Input     51 Bit        Muxes := 1     
+Module Kyber_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              256 Bit    Registers := 6     
+	               73 Bit    Registers := 3     
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   4 Input    256 Bit        Muxes := 1     
+	   2 Input    256 Bit        Muxes := 3     
+	   2 Input     73 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 1     
+	  15 Input     32 Bit        Muxes := 1     
+	   3 Input     25 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 1     
+	   8 Input      6 Bit        Muxes := 1     
+	   9 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 14    
+	   2 Input      5 Bit        Muxes := 12    
+	   2 Input      4 Bit        Muxes := 11    
+	  18 Input      4 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+	   5 Input      1 Bit        Muxes := 4     
+	  37 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 7     
+	  10 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5587] ROM size for "ctrl_butt" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "ctrl_butt" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[0] )
+INFO: [Synth 8-3886] merging instance 'S/ntt/ctrl_butt_reg[0]' (FD) to 'S/ntt/ctrl_butt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp2_q_reg[3]' (FDR) to 'S/ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp2_q_reg[4]' (FDR) to 'S/ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp2_q_reg[5]' (FDR) to 'S/ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp2_q_reg[6]' (FDR) to 'S/ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/ntt/\samp2_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp2_q_reg[10]' (FDR) to 'S/ntt/samp2_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp3_q_reg[3]' (FDR) to 'S/ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp3_q_reg[4]' (FDR) to 'S/ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp3_q_reg[5]' (FDR) to 'S/ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp3_q_reg[6]' (FDR) to 'S/ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/ntt/\samp3_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp3_q_reg[10]' (FDR) to 'S/ntt/samp3_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp0_q_reg[3]' (FDR) to 'S/ntt/samp0_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp0_q_reg[4]' (FDR) to 'S/ntt/samp0_q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp0_q_reg[5]' (FDR) to 'S/ntt/samp0_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp0_q_reg[6]' (FDR) to 'S/ntt/samp0_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/ntt/\samp0_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp0_q_reg[10]' (FDR) to 'S/ntt/samp0_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp1_q_reg[3]' (FDR) to 'S/ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp1_q_reg[4]' (FDR) to 'S/ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp1_q_reg[5]' (FDR) to 'S/ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp1_q_reg[6]' (FDR) to 'S/ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/ntt/\samp1_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'S/ntt/samp1_q_reg[10]' (FDR) to 'S/ntt/samp1_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[0]' (FDE) to 'S/eta3_r_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[1] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[1]' (FDE) to 'S/eta3_r_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[2] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[2]' (FDE) to 'S/eta3_r_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[3] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[3]' (FDE) to 'S/eta3_r_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[4] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[4]' (FDE) to 'S/eta3_r_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[5] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[5]' (FDE) to 'S/eta3_r_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[6] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[6]' (FDE) to 'S/eta3_r_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[7] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[7]' (FDE) to 'S/eta3_r_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[8] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[8]' (FDE) to 'S/eta3_r_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[9] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[9]' (FDE) to 'S/eta3_r_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[10] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[10]' (FDE) to 'S/eta3_r_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[11] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[11]' (FDE) to 'S/eta3_r_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[12] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[12]' (FDE) to 'S/eta3_r_reg[13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[13] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[13]' (FDE) to 'S/eta3_r_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[14] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[14]' (FDE) to 'S/eta3_r_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[15] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[15]' (FDE) to 'S/eta3_r_reg[16]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[16] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[16]' (FDE) to 'S/eta3_r_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[17] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[17]' (FDE) to 'S/eta3_r_reg[18]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[18] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[18]' (FDE) to 'S/eta3_r_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[19] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[19]' (FDE) to 'S/eta3_r_reg[20]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[20] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[20]' (FDE) to 'S/eta3_r_reg[21]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[21] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[21]' (FDE) to 'S/eta3_r_reg[22]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[22] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[22]' (FDE) to 'S/eta3_r_reg[23]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[23] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[23]' (FDE) to 'S/eta3_r_reg[24]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[24] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[24]' (FDE) to 'S/eta3_r_reg[25]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[25] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[25]' (FDE) to 'S/eta3_r_reg[26]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[26] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[26]' (FDE) to 'S/eta3_r_reg[27]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[27] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[27]' (FDE) to 'S/eta3_r_reg[28]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[28] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[28]' (FDE) to 'S/eta3_r_reg[29]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[29] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[29]' (FDE) to 'S/eta3_r_reg[30]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[30] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[30]' (FDE) to 'S/eta3_r_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[31] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[31]' (FDE) to 'S/eta3_r_reg[32]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[32] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[32]' (FDE) to 'S/eta3_r_reg[33]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[33] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[33]' (FDE) to 'S/eta3_r_reg[34]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[34] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[34]' (FDE) to 'S/eta3_r_reg[35]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[35] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[35]' (FDE) to 'S/eta3_r_reg[36]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[36] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[36]' (FDE) to 'S/eta3_r_reg[37]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[37] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[37]' (FDE) to 'S/eta3_r_reg[38]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[38] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[38]' (FDE) to 'S/eta3_r_reg[39]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[39] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[39]' (FDE) to 'S/eta3_r_reg[40]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[40] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[40]' (FDE) to 'S/eta3_r_reg[41]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[41] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[41]' (FDE) to 'S/eta3_r_reg[42]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[42] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[42]' (FDE) to 'S/eta3_r_reg[43]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[43] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[43]' (FDE) to 'S/eta3_r_reg[44]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[44] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[44]' (FDE) to 'S/eta3_r_reg[45]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[45] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[45]' (FDE) to 'S/eta3_r_reg[46]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[46] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[46]' (FDE) to 'S/eta3_r_reg[47]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[47] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[47]' (FDE) to 'S/eta3_r_reg[48]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[48] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[48]' (FDE) to 'S/eta3_r_reg[49]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[49] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[49]' (FDE) to 'S/eta3_r_reg[50]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[50] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[50]' (FDE) to 'S/eta3_r_reg[51]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[51] )
+INFO: [Synth 8-3886] merging instance 'S/eta3_r_reg[51]' (FDE) to 'S/eta3_r_reg[52]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (S/\eta3_r_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[0] )
+INFO: [Synth 8-3886] merging instance 'C/ntt/ctrl_butt_reg[0]' (FD) to 'C/ntt/ctrl_butt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp2_q_reg[3]' (FDR) to 'C/ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp2_q_reg[4]' (FDR) to 'C/ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp2_q_reg[5]' (FDR) to 'C/ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp2_q_reg[6]' (FDR) to 'C/ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/ntt/\samp2_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp2_q_reg[10]' (FDR) to 'C/ntt/samp2_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp3_q_reg[3]' (FDR) to 'C/ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp3_q_reg[4]' (FDR) to 'C/ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp3_q_reg[5]' (FDR) to 'C/ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp3_q_reg[6]' (FDR) to 'C/ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/ntt/\samp3_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp3_q_reg[10]' (FDR) to 'C/ntt/samp3_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp0_q_reg[3]' (FDR) to 'C/ntt/samp0_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp0_q_reg[4]' (FDR) to 'C/ntt/samp0_q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp0_q_reg[5]' (FDR) to 'C/ntt/samp0_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp0_q_reg[6]' (FDR) to 'C/ntt/samp0_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/ntt/\samp0_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp0_q_reg[10]' (FDR) to 'C/ntt/samp0_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp1_q_reg[3]' (FDR) to 'C/ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp1_q_reg[4]' (FDR) to 'C/ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp1_q_reg[5]' (FDR) to 'C/ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp1_q_reg[6]' (FDR) to 'C/ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/ntt/\samp1_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'C/ntt/samp1_q_reg[10]' (FDR) to 'C/ntt/samp1_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'C/eta3_r_reg[0]' (FDE) to 'C/eta3_r_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[1] )
+INFO: [Synth 8-3886] merging instance 'C/eta3_r_reg[1]' (FDE) to 'C/eta3_r_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[2] )
+INFO: [Synth 8-3886] merging instance 'C/eta3_r_reg[2]' (FDE) to 'C/eta3_r_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[3] )
+INFO: [Synth 8-3886] merging instance 'C/eta3_r_reg[3]' (FDE) to 'C/eta3_r_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[4] )
+INFO: [Synth 8-3886] merging instance 'C/eta3_r_reg[4]' (FDE) to 'C/eta3_r_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[5] )
+INFO: [Synth 8-3886] merging instance 'C/eta3_r_reg[5]' (FDE) to 'C/eta3_r_reg[6]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (C/\eta3_r_reg[38] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:24 ; elapsed = 00:02:29 . Memory (MB): peak = 1064.398 ; gain = 688.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |Kyber_Server  |           1|     23597|
+|2     |Kyber_Client  |           1|     21831|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:31 ; elapsed = 00:02:36 . Memory (MB): peak = 1064.398 ; gain = 688.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:31 ; elapsed = 00:02:36 . Memory (MB): peak = 1064.398 ; gain = 688.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |Kyber_Server  |           1|     23597|
+|2     |Kyber_Client  |           1|     21831|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:37 ; elapsed = 00:02:42 . Memory (MB): peak = 1085.602 ; gain = 709.699
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:39 ; elapsed = 00:02:43 . Memory (MB): peak = 1085.602 ; gain = 709.699
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:39 ; elapsed = 00:02:44 . Memory (MB): peak = 1085.602 ; gain = 709.699
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:40 ; elapsed = 00:02:45 . Memory (MB): peak = 1085.602 ; gain = 709.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:40 ; elapsed = 00:02:45 . Memory (MB): peak = 1085.602 ; gain = 709.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:52 ; elapsed = 00:02:56 . Memory (MB): peak = 1085.602 ; gain = 709.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:52 ; elapsed = 00:02:56 . Memory (MB): peak = 1085.602 ; gain = 709.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Kyber_top   | S/ntt/BU/R0/sum_r3_reg[10] | 3      | 11    | NO           | NO                 | YES               | 11     | 0       | 
+|Kyber_top   | S/ntt/BU/R1/sum_r3_reg[10] | 3      | 11    | NO           | NO                 | YES               | 11     | 0       | 
+|Kyber_top   | S/ntt/BU/flag_uv_r2_reg    | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | S/sigma_reg[31]            | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | S/rho_reg[31]              | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | S/hash_pk_reg[31]          | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | S/K_reg[31]                | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | S/hash_c_reg[31]           | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | C/ntt/BU/R0/sum_r3_reg[10] | 3      | 11    | NO           | NO                 | YES               | 11     | 0       | 
+|Kyber_top   | C/ntt/BU/R1/sum_r3_reg[10] | 3      | 11    | NO           | NO                 | YES               | 11     | 0       | 
+|Kyber_top   | C/r_reg[31]                | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | C/rho_reg[31]              | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | C/hash_pk_reg[31]          | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | C/K_reg[31]                | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | C/hash_c_reg[31]           | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_top   | S/eta3_r_reg[70]           | 4      | 3     | YES          | NO                 | YES               | 3      | 0       | 
+|Kyber_top   | S/patt_r_reg[71]           | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | S/patt_r_reg[46]           | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | S/patt_r_reg[38]           | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | S/patt_r_reg[29]           | 15     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | S/patt_r_reg[12]           | 11     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | S/endp_r_reg[72]           | 22     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|Kyber_top   | S/endp_r_reg[48]           | 17     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | S/endp_r_reg[29]           | 28     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|Kyber_top   | S/d_reg[158]               | 4      | 4     | YES          | NO                 | YES               | 4      | 0       | 
+|Kyber_top   | S/d_reg[87]                | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | S/d_reg[82]                | 5      | 7     | YES          | NO                 | YES               | 7      | 0       | 
+|Kyber_top   | S/z_reg[144]               | 4      | 6     | YES          | NO                 | YES               | 6      | 0       | 
+|Kyber_top   | S/z_reg[110]               | 5      | 6     | YES          | NO                 | YES               | 6      | 0       | 
+|Kyber_top   | S/z_reg[84]                | 6      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|Kyber_top   | S/z_reg[38]                | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | C/endp_r_reg[72]           | 22     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|Kyber_top   | C/endp_r_reg[49]           | 19     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|Kyber_top   | C/endp_r_reg[29]           | 29     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|Kyber_top   | C/eta3_r_reg[70]           | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | C/patt_r_reg[71]           | 4      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|Kyber_top   | C/patt_r_reg[47]           | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | C/patt_r_reg[39]           | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | C/patt_r_reg[29]           | 15     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_top   | C/patt_r_reg[13]           | 12     | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |fifo_generator_2 |         2|
+|2     |fifo_generator_3 |         2|
+|3     |fifo_generator_6 |         1|
+|4     |fifo_generator_0 |         2|
+|5     |fifo_generator_1 |         2|
+|6     |fifo_generator_7 |         2|
+|7     |fifo_generator_8 |         2|
+|8     |dist_mem_gen_5   |         2|
+|9     |dist_mem_gen_6   |         2|
+|10    |dist_mem_gen_7   |         2|
+|11    |blk_mem_gen_0    |         4|
+|12    |blk_mem_gen_2    |         4|
+|13    |blk_mem_gen_1    |         2|
+|14    |c_shift_ram_3    |         2|
+|15    |c_shift_ram_4    |         4|
+|16    |c_shift_ram_5    |         2|
+|17    |c_shift_ram_6    |         2|
+|18    |c_shift_ram_8    |         2|
+|19    |c_shift_ram_11   |         2|
+|20    |mult_gen_0       |         4|
+|21    |c_shift_ram_0    |         4|
+|22    |c_shift_ram_1    |         4|
+|23    |fifo_generator_4 |         1|
+|24    |fifo_generator_5 |         1|
+|25    |c_shift_ram_2    |         1|
+|26    |c_shift_ram_9    |         2|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |blk_mem_gen_0       |     1|
+|2     |blk_mem_gen_0__4    |     1|
+|3     |blk_mem_gen_0__5    |     1|
+|4     |blk_mem_gen_0__6    |     1|
+|5     |blk_mem_gen_1       |     1|
+|6     |blk_mem_gen_1__2    |     1|
+|7     |blk_mem_gen_2       |     1|
+|8     |blk_mem_gen_2__4    |     1|
+|9     |blk_mem_gen_2__5    |     1|
+|10    |blk_mem_gen_2__6    |     1|
+|11    |c_shift_ram_0       |     1|
+|12    |c_shift_ram_0__4    |     1|
+|13    |c_shift_ram_0__5    |     1|
+|14    |c_shift_ram_0__6    |     1|
+|15    |c_shift_ram_1       |     1|
+|16    |c_shift_ram_11      |     1|
+|17    |c_shift_ram_11__2   |     1|
+|18    |c_shift_ram_1__4    |     1|
+|19    |c_shift_ram_1__5    |     1|
+|20    |c_shift_ram_1__6    |     1|
+|21    |c_shift_ram_2       |     1|
+|22    |c_shift_ram_3       |     1|
+|23    |c_shift_ram_3__2    |     1|
+|24    |c_shift_ram_4       |     1|
+|25    |c_shift_ram_4__4    |     1|
+|26    |c_shift_ram_4__5    |     1|
+|27    |c_shift_ram_4__6    |     1|
+|28    |c_shift_ram_5       |     1|
+|29    |c_shift_ram_5__2    |     1|
+|30    |c_shift_ram_6       |     1|
+|31    |c_shift_ram_6__2    |     1|
+|32    |c_shift_ram_8       |     1|
+|33    |c_shift_ram_8__2    |     1|
+|34    |c_shift_ram_9       |     1|
+|35    |c_shift_ram_9__2    |     1|
+|36    |dist_mem_gen_5      |     1|
+|37    |dist_mem_gen_5__2   |     1|
+|38    |dist_mem_gen_6      |     1|
+|39    |dist_mem_gen_6__2   |     1|
+|40    |dist_mem_gen_7      |     1|
+|41    |dist_mem_gen_7__2   |     1|
+|42    |fifo_generator_0    |     1|
+|43    |fifo_generator_0__2 |     1|
+|44    |fifo_generator_1    |     1|
+|45    |fifo_generator_1__2 |     1|
+|46    |fifo_generator_2    |     1|
+|47    |fifo_generator_2__2 |     1|
+|48    |fifo_generator_3    |     1|
+|49    |fifo_generator_3__2 |     1|
+|50    |fifo_generator_4    |     1|
+|51    |fifo_generator_5    |     1|
+|52    |fifo_generator_6    |     1|
+|53    |fifo_generator_7    |     1|
+|54    |fifo_generator_7__2 |     1|
+|55    |fifo_generator_8    |     1|
+|56    |fifo_generator_8__2 |     1|
+|57    |mult_gen_0          |     1|
+|58    |mult_gen_0__4       |     1|
+|59    |mult_gen_0__5       |     1|
+|60    |mult_gen_0__6       |     1|
+|61    |BUFG                |     1|
+|62    |CARRY4              |   300|
+|63    |LUT1                |   231|
+|64    |LUT2                |   528|
+|65    |LUT3                |  4490|
+|66    |LUT4                |   474|
+|67    |LUT5                |  5168|
+|68    |LUT6                |  2077|
+|69    |MUXF7               |   115|
+|70    |MUXF8               |     4|
+|71    |SRL16E              |   408|
+|72    |SRLC32E             |     5|
+|73    |FDCE                |     2|
+|74    |FDRE                |  6929|
+|75    |FDSE                |   246|
+|76    |IBUF                |     6|
+|77    |OBUF                |    70|
++------+--------------------+------+
+
+Report Instance Areas: 
++------+----------------------+-----------------+------+
+|      |Instance              |Module           |Cells |
++------+----------------------+-----------------+------+
+|1     |top                   |                 | 22165|
+|2     |  C                   |Kyber_Client     | 10418|
+|3     |    decode            |decode_Client    |   145|
+|4     |    encode            |encode_Client    |   237|
+|5     |    hash              |hash_core_Client |  6055|
+|6     |      decode          |decode_keccak_3  |   202|
+|7     |      hash            |Keccak1600_4     |  5391|
+|8     |        FSM           |StateMachine_5   |   109|
+|9     |        RoundFunction |Round_6          |  5282|
+|10    |          Reg         |RegisterFDRE_7   |  3362|
+|11    |          T           |theta_8          |  1920|
+|12    |    ntt               |NTT_core_Client  |  2950|
+|13    |      BU              |butterfly_Cli    |  1365|
+|14    |        R0            |reduc_1          |   285|
+|15    |        R1            |reduc_2          |   276|
+|16    |  S                   |Kyber_Server     | 11648|
+|17    |    decode            |decode_Server    |   405|
+|18    |    encode            |encode_Server    |   125|
+|19    |    hash              |hash_core_Server |  6175|
+|20    |      decode          |decode_keccak    |   202|
+|21    |      hash            |Keccak1600       |  5442|
+|22    |        FSM           |StateMachine     |    96|
+|23    |        RoundFunction |Round            |  5346|
+|24    |          Reg         |RegisterFDRE     |  3426|
+|25    |          T           |theta            |  1920|
+|26    |    ntt               |NTT_core_Server  |  3308|
+|27    |      BU              |butterfly_Ser    |  1485|
+|28    |        R0            |reduc            |   284|
+|29    |        R1            |reduc_0          |   275|
++------+----------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:52 ; elapsed = 00:02:56 . Memory (MB): peak = 1085.602 ; gain = 709.699
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:39 ; elapsed = 00:02:45 . Memory (MB): peak = 1085.602 ; gain = 268.543
+Synthesis Optimization Complete : Time (s): cpu = 00:02:52 ; elapsed = 00:02:56 . Memory (MB): peak = 1085.602 ; gain = 709.699
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 419 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1085.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+546 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:57 ; elapsed = 00:03:02 . Memory (MB): peak = 1085.602 ; gain = 721.207
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1085.602 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/synth_1/Kyber_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Kyber_top_utilization_synth.rpt -pb Kyber_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  6 17:35:16 2022...

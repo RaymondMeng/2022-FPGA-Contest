@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov  2 11:33:54 2022
+# Process ID: 42436
+# Current directory: C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/c_shift_ram_6_synth_1
+# Command line: vivado.exe -log c_shift_ram_6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source c_shift_ram_6.tcl
+# Log file: C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/c_shift_ram_6_synth_1/c_shift_ram_6.vds
+# Journal file: C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_final/kyber_final.runs/c_shift_ram_6_synth_1\vivado.jou
+#-----------------------------------------------------------
+source c_shift_ram_6.tcl -notrace
