@@ -1,0 +1,37 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.8.07 Education"
+//Sun Nov 06 21:16:35 2022
+
+//Source file index table:
+//file0 "\C:/Program\ D/kyber/RSA_GOWIN/RSA/src/RSA_top.v"
+//file1 "\C:/Program\ D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v"
+//file2 "\C:/Program\ D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v"
+//file3 "\C:/Program\ D/kyber/RSA_GOWIN/RSA/src/multi_mod.v"
+//file4 "\C:/Program\ D/kyber/RSA_GOWIN/RSA/src/key_gen.v"
+`pragma protect begin_protected
+`pragma protect version="2.1"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.1"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2021-10",key_method="rsa"
+`pragma protect key_block
+Lmg0HCVpfhjhZi0qwlr+BAeHoHSuSMEzlt3mU0PKFC8aTrQSQKkfLyhh/CHgdzFYmFA7uK5dBHoK
+IyxOnILzau8jYmyOfT1QKZuzvh53MfYjerV1JKtltibj1dUdmAl9JzWntMAzr/Zil8zZ/eDwV1FS
+hhD5MMwP3wKlJlwAQDo0ByNSfdpOGOqQzlqiBvhDe/erAELARJ4tqXogHwtPRTbb+rhVL2RsojUf
+TAF+GeKGV8ayLevnoAUhvjt8cUVwCA9ofc9mnaz8SNiLoUfuFWJ1Y/iTmoPXTvoR9milOK3OfuDd
+45KCUaKAKtGD1RhEqgHnwYdN2roXpWzZNcOIBg==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=208)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cbc"
+`pragma protect data_block
+vwnr8wXEViFs9Neu18CHnwd9Ip0dnHF3vPjztX3TA3tCtjJWYnSub0T2CH+Rguf91SM9p1GVrGUF
+mOdtPg2K724Cixk4QRbeo+TVay43yDm/gD5B8pjJgi0CKh0yXqxZmN0LNFuNEC8nQu+mwFlBlQAJ
+8E0+snXpwfKJWM7sbefbpuppl5Ibjx4BHklDlcA01QMugKhmTP3YCXvU6mMhvP/3N+jzk8CA5lc5
+iA7UfOA8bcbo8jttbmp3rFcZwYruTD/Q2XF4PVfUgukPLFdayA==
+`pragma protect end_protected

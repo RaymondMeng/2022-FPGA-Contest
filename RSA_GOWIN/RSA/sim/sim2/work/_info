@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/APP/modeltech64_10.4/gowin/gw2a
+vGowin_MULT
+Z0 !s110 1667479888
+!i10b 1
+!s100 A:SUaGY78iT5PY]LCP@WP2
+Ila@f]MDb0k9BFc>O58E6e3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Program D/kyber/RSA_GOWIN/RSA/sim/sim2
+w1667389150
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v
+L0 9
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1667479888.086000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@gowin_@m@u@l@t
+vmulti_mod
+Z5 !s110 1667479887
+!i10b 1
+!s100 oeUbCKo23JCiX;>94[UCz2
+IW4AnTiB]CM9I3VIOgf_F[3
+R1
+R2
+w1667462524
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/multi_mod.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/multi_mod.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1667479887.823000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/multi_mod.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/multi_mod.v|
+!i113 0
+R4
+vRSA_top
+R5
+!i10b 1
+!s100 f`klHFRma9MBf0M_JYGe23
+I]`1CHbB;7PjDDQ8kCDIUm1
+R1
+R2
+w1667462347
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/RSA_top.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/RSA_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1667479887.883000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/RSA_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/RSA_top.v|
+!i113 0
+R4
+n@r@s@a_top
+vtb_RSA
+R0
+!i10b 1
+!s100 IXJNoFMb]4N?hlYI93?lE0
+ISCNgnH9jXQWVAFlJH6HcE1
+R1
+R2
+w1667462707
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1667479888.004000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v|
+!i113 0
+R4
+ntb_@r@s@a
