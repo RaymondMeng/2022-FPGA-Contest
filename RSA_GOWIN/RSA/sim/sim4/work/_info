@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/APP/modeltech64_10.4/gowin/gw2a
+T_opt
+!s110 1667702037
+V8;[jK`6B`W<@XRS2_BNVU2
+04 6 4 work tb_RSA fast 0
+=1-6c2b5976f3ce-63671d15-5d-6260
+o-quiet -auto_acc_if_foreign -work work -L D:/APP/modeltech64_10.4/gowin/gw2a/prim_sim
+n@_opt
+OL;O;10.4;61
+R0
+vGowin_MULT
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 A:SUaGY78iT5PY]LCP@WP2
+Ila@f]MDb0k9BFc>O58E6e3
+Z2 dC:/Program D/kyber/RSA_GOWIN/RSA/sim/sim4
+w1667389150
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v
+L0 9
+Z3 OL;L;10.4;61
+!s108 1667734243.400000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/gowin_mult/gowin_mult.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@gowin_@m@u@l@t
+vkey_gen
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 iC42WS6`00ffGMzz86Bzm1
+IbA;bKHVmXK7R;fKo?<<^m3
+R2
+w1667615970
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/key_gen.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/key_gen.v
+L0 3
+R3
+!s108 1667734243.477000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/key_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/key_gen.v|
+!i113 0
+R4
+vmulti_mod
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 oeUbCKo23JCiX;>94[UCz2
+IW4AnTiB]CM9I3VIOgf_F[3
+R2
+w1667462524
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/multi_mod.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/multi_mod.v
+L0 1
+R3
+!s108 1667734243.178000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/multi_mod.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/multi_mod.v|
+!i113 0
+R4
+vRSA_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Ea4eKj]R=0@92K^0z5U5m2
+IKA[4TAmWia4@=HNfJ;9;N0
+R2
+w1667734238
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/RSA_top.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/RSA_top.v
+L0 1
+R3
+!s108 1667734243.231000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/RSA_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/RSA_top.v|
+!i113 0
+R4
+n@r@s@a_top
+vtb_RSA
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :^C:Mzi>ULWREVQ@;^BKC0
+IlmNegCSz@V3FbkDFGo[^72
+R2
+w1667732430
+8C:/Program D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v
+FC:/Program D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v
+L0 3
+R3
+!s108 1667734243.322000
+!s107 C:/Program D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/RSA_GOWIN/RSA/src/tb_RSA.v|
+!i113 0
+R4
+ntb_@r@s@a
