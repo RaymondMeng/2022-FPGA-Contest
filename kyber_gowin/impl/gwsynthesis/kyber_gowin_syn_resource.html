@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Hierarchy Module Resource</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 14px; }
+div#main_wrapper{ width: 100%; }
+h1 {text-align: center; }
+h1 {margin-top: 36px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { align = "center"; padding: 5px 2px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table td.label { width: 20%; white-space: nowrap; min-width: 20px; background-color: #dee8f4; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="content">
+<h1>Hierarchy Module Resource</h1>
+<table>
+<tr>
+<th class="label">MODULE NAME</th>
+<th class="label">REG NUMBER</th>
+<th class="label">ALU NUMBER</th>
+<th class="label">LUT NUMBER</th>
+<th class="label">DSP NUMBER</th>
+<th class="label">BSRAM NUMBER</th>
+<th class="label">SSRAM NUMBER</th>
+</tr>
+<tr>
+<td class="label">Kyber_Client (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v)</td>
+<td align = "center">1125</td>
+<td align = "center">78</td>
+<td align = "center">1492</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">24</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--ntt
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v)</td>
+<td align = "center">430</td>
+<td align = "center">78</td>
+<td align = "center">1602</td>
+<td align = "center">-</td>
+<td align = "center">7</td>
+<td align = "center">2</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--BU
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">255</td>
+<td align = "center">176</td>
+<td align = "center">435</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--M0
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--M1
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--R0
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v)</td>
+<td align = "center">115</td>
+<td align = "center">97</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--R1
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v)</td>
+<td align = "center">115</td>
+<td align = "center">97</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ROM0
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ROM1
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ROM2
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--RAM0
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--RAM1
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--RAM2
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--RAM3
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--RAM4
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--hash
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v)</td>
+<td align = "center">126</td>
+<td align = "center">94</td>
+<td align = "center">128</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--hash
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--RoundFunction
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Reg
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd)</td>
+<td align = "center">1600</td>
+<td align = "center">-</td>
+<td align = "center">5358</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--FSM
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--decode
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v)</td>
+<td align = "center">80</td>
+<td align = "center">-</td>
+<td align = "center">94</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--decode
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v)</td>
+<td align = "center">78</td>
+<td align = "center">-</td>
+<td align = "center">86</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--encode
+ (C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v)</td>
+<td align = "center">59</td>
+<td align = "center">-</td>
+<td align = "center">395</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

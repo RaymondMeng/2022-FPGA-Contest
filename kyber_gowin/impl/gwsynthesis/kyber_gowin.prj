@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\LUT.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Server.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_0.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_1.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_11.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_2.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_3.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_4.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_5.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_6.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_8.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_9.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\_to_32bits.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Client.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Server.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\decode_Client.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\decode_Server.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\decode_keccak.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\encode_Client.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\encode_Server.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_0.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_1.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_2.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_3.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_4.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_5.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_6.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_7.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_8.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_mult\mult_gen_0.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_5.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_6.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_7.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_0.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_1.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_2.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\hash_core_Client.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\hash_core_Server.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\kerber_top.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\kyber_server.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\mux4to2.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pattern.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pw_top _ahb.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\reduc.v" type="verilog"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Keccak1600.vhd" type="vhdl"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RegisterFDRE.vhd" type="vhdl"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd" type="vhdl"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\StateMachine.vhd" type="vhdl"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\chi.vhd" type="vhdl"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\iota.vhd" type="vhdl"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pi.vhd" type="vhdl"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\rho.vhd" type="vhdl"/>
+        <File path="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\theta.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\impl\gwsynthesis\kyber_gowin.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="Kyber_Client"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

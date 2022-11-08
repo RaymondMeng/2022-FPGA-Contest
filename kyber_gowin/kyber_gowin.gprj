@@ -1,0 +1,65 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/LUT.v" type="file.verilog" enable="1"/>
+        <File path="src/NTT_core_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/NTT_core_Server.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_0.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_1.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_11.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_2.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_3.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_4.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_5.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_6.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_8.v" type="file.verilog" enable="1"/>
+        <File path="src/RAM_based_shift_reg_top/c_shift_ram_9.v" type="file.verilog" enable="1"/>
+        <File path="src/_to_32bits.v" type="file.verilog" enable="1"/>
+        <File path="src/butterfly_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/butterfly_Server.v" type="file.verilog" enable="1"/>
+        <File path="src/decode_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/decode_Server.v" type="file.verilog" enable="1"/>
+        <File path="src/decode_keccak.v" type="file.verilog" enable="1"/>
+        <File path="src/encode_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/encode_Server.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_0.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_1.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_2.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_3.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_4.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_5.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_6.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_7.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_generator_8.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_mult/mult_gen_0.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/dist_mem_gen_5.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/dist_mem_gen_6.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/dist_mem_gen_7.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/blk_mem_gen_0.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/blk_mem_gen_1.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/blk_mem_gen_2.v" type="file.verilog" enable="1"/>
+        <File path="src/hash_core_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/hash_core_Server.v" type="file.verilog" enable="1"/>
+        <File path="src/kerber_top.v" type="file.verilog" enable="1"/>
+        <File path="src/keyber_client.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber_server.v" type="file.verilog" enable="1"/>
+        <File path="src/mux4to2.v" type="file.verilog" enable="1"/>
+        <File path="src/pattern.v" type="file.verilog" enable="1"/>
+        <File path="src/pw_top _ahb.v" type="file.verilog" enable="1"/>
+        <File path="src/reduc.v" type="file.verilog" enable="1"/>
+        <File path="src/Keccak1600.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/RegisterFDRE.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Round.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/StateMachine.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/chi.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/iota.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pi.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/rho.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/theta.vhd" type="file.vhdl" enable="1"/>
+    </FileList>
+</Project>

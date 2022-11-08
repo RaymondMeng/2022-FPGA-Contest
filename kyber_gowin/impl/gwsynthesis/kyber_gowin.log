@@ -1,0 +1,198 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\LUT.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Server.v'
+WARN  (EX3792) : Literal value 'h38 truncated to fit in 5 bits("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Server.v":456)
+WARN  (EX3792) : Literal value 'h39 truncated to fit in 5 bits("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Server.v":460)
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_0.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_1.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_11.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_2.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_3.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_4.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_5.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_6.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_8.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_9.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\_to_32bits.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Client.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Server.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\decode_Client.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\decode_Server.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\decode_keccak.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\encode_Client.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\encode_Server.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_0.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_1.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_2.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_3.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_4.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_5.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_6.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_7.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_8.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_mult\mult_gen_0.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_5.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_6.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_7.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_0.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_1.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_2.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\hash_core_Client.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\hash_core_Server.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\kerber_top.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\kyber_server.v'
+Undeclared symbol 'ena_sft', assumed default net type 'wire'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\kyber_server.v":629)
+Undeclared symbol 'NTT_finish', assumed default net type 'wire'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\kyber_server.v":636)
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\mux4to2.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pattern.v'
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pw_top _ahb.v'
+Undeclared symbol 'reset', assumed default net type 'wire'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pw_top _ahb.v":45)
+Analyzing Verilog file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\reduc.v'
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Keccak1600.vhd'
+Analyzing entity 'keccak1600'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Keccak1600.vhd":19)
+Analyzing architecture 'structural'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Keccak1600.vhd":41)
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RegisterFDRE.vhd'
+Analyzing entity 'registerfdre'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RegisterFDRE.vhd":18)
+Analyzing architecture 'behavioral'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RegisterFDRE.vhd":37)
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd'
+Analyzing entity 'round'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd":19)
+Analyzing architecture 'structural'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd":39)
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\StateMachine.vhd'
+Analyzing entity 'statemachine'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\StateMachine.vhd":19)
+Analyzing architecture 'fsm'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\StateMachine.vhd":35)
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\chi.vhd'
+Analyzing entity 'chi'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\chi.vhd":19)
+Analyzing architecture 'dataflow'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\chi.vhd":28)
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\iota.vhd'
+Analyzing entity 'iota'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\iota.vhd":19)
+Analyzing architecture 'dataflow'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\iota.vhd":29)
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pi.vhd'
+Analyzing entity 'pi'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pi.vhd":19)
+Analyzing architecture 'dataflow'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pi.vhd":28)
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\rho.vhd'
+Analyzing entity 'rho'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\rho.vhd":19)
+Analyzing architecture 'dataflow'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\rho.vhd":28)
+Analyzing VHDL file 'C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\theta.vhd'
+Analyzing entity 'theta'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\theta.vhd":19)
+Analyzing architecture 'dataflow'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\theta.vhd":28)
+Compiling module 'Kyber_Client'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v":2)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 1("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v":170)
+WARN  (EX2420) : Latch inferred for net 'mdat_in'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v":170)
+Compiling module 'NTT_core_Client'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":2)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 2("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":76)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":130)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":131)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":164)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":194)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":262)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":263)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":420)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":421)
+Compiling module 'butterfly_Cli'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Client.v":2)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Client.v":155)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Client.v":156)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Client.v":166)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\butterfly_Client.v":167)
+Compiling module 'mult_gen_0'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_mult\mult_gen_0.v":9)
+Compiling module 'reduc'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\reduc.v":2)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 13("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\reduc.v":46)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\reduc.v":54)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\reduc.v":56)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_0.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_0.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_1.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_1.v":0)
+Compiling module 'dist_mem_gen_5'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_5.v":9)
+Compiling module 'dist_mem_gen_6'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_6.v":9)
+Compiling module 'dist_mem_gen_7'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_prom\dist_mem_gen_7.v":9)
+Compiling module 'blk_mem_gen_0'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_0.v":9)
+Compiling module 'blk_mem_gen_2'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_2.v":9)
+Compiling module 'blk_mem_gen_1'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\gowin_sdpb\blk_mem_gen_1.v":9)
+Compiling module 'mux4to2'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\mux4to2.v":1)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_3.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_3.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_4.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_4.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_5.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_5.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_6.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_6.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_8.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_8.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_11.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RAM_based_shift_reg_top\c_shift_ram_11.v":0)
+Compiling module 'hash_core_Client'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\hash_core_Client.v":1)
+Switching to VHDL mode to elaborate design unit 'Keccak1600'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\hash_core_Client.v":192)
+Processing 'Keccak1600(Structural)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Keccak1600.vhd":19)
+Processing 'Round(Structural)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd":19)
+Processing 'RegisterFDRE(size=1600)(Behavioral)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\RegisterFDRE.vhd":18)
+Processing 'theta(Dataflow)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\theta.vhd":19)
+Processing 'rho(Dataflow)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\rho.vhd":19)
+Processing 'pi(Dataflow)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pi.vhd":19)
+Processing 'chi(Dataflow)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\chi.vhd":19)
+Processing 'iota(Dataflow)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\iota.vhd":19)
+Processing 'StateMachine(FSM)'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\StateMachine.vhd":19)
+Returning to Verilog mode to proceed with elaboration("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\hash_core_Client.v":192)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_0.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_0.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_1.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_1.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_7.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_7.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_8.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_8.v":0)
+Compiling module 'decode_keccak'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\decode_keccak.v":3)
+Compiling module 'decode_Client'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\decode_Client.v":2)
+Compiling module 'encode_Client'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\encode_Client.v":2)
+Compiling module 'pattern'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\pattern.v":1)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_2.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_2.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_3.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_3.v":0)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 34 for port 'Data'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v":515)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 34 for port 'Q'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v":515)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_6.v":0)
+Compiling module '**'("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\fifo_sc_hs\fifo_generator_6.v":0)
+NOTE  (EX0101) : Current top module is "Kyber_Client"
+[5%] Running netlist conversion ...
+WARN  (CV0020) : Input m_in[31:1] is unused("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v":9)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "chi" instantiated to "C" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd":115)
+WARN  (NL0002) : The module "iota" instantiated to "I" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd":116)
+WARN  (NL0002) : The module "pi" instantiated to "P" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd":114)
+WARN  (NL0002) : The module "rho" instantiated to "R" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd":113)
+WARN  (NL0002) : The module "theta" instantiated to "T" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\Round.vhd":112)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m00" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":492)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m01" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":493)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m02" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":494)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m10" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":495)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m11" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":496)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m12" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":497)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m20" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":498)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m21" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":499)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m22" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":500)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m30" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":501)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m31" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":502)
+WARN  (NL0002) : The module "mux4to2" instantiated to "m32" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\NTT_core_Client.v":503)
+WARN  (NL0002) : The module "pattern" instantiated to "pattern" is swept in optimizing("C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\src\keyber_client.v":512)
+[95%] Generate netlist file "C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\impl\gwsynthesis\kyber_gowin.vg" completed
+[100%] Generate report file "C:\Users\lenovo\Desktop\2022FPGA-SOC\kyber_gowin\impl\gwsynthesis\kyber_gowin_syn.rpt.html" completed
+GowinSynthesis finish

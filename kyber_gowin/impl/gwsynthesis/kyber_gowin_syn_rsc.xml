@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="Kyber_Client" Register="1125" Alu="78" Lut="1492" Bsram="3" Ssram="24">
+    <SubModule name="ntt" Register="430" Alu="78" Lut="1602" Bsram="7" Ssram="2">
+        <SubModule name="BU" Register="255" Alu="176" Lut="435" Bsram="4">
+            <SubModule name="M0" Dsp="1"/>
+            <SubModule name="M1" Dsp="1"/>
+            <SubModule name="R0" Register="115" Alu="97" Lut="36"/>
+            <SubModule name="R1" Register="115" Alu="97" Lut="36"/>
+        </SubModule>
+        <SubModule name="ROM0" Bsram="1"/>
+        <SubModule name="ROM1" Bsram="1"/>
+        <SubModule name="ROM2" Bsram="1"/>
+        <SubModule name="RAM0" Bsram="1"/>
+        <SubModule name="RAM1" Bsram="1"/>
+        <SubModule name="RAM2" Bsram="1"/>
+        <SubModule name="RAM3" Bsram="1"/>
+        <SubModule name="RAM4" Bsram="2"/>
+    </SubModule>
+    <SubModule name="hash" Register="126" Alu="94" Lut="128" Bsram="4">
+        <SubModule name="hash">
+            <SubModule name="RoundFunction">
+                <SubModule name="Reg" Register="1600" Lut="5358"/>
+            </SubModule>
+            <SubModule name="FSM" Register="10" Lut="10"/>
+        </SubModule>
+        <SubModule name="decode" Register="80" Lut="94" Ssram="1"/>
+    </SubModule>
+    <SubModule name="decode" Register="78" Lut="86" Ssram="1"/>
+    <SubModule name="encode" Register="59" Lut="395"/>
+</Module>
