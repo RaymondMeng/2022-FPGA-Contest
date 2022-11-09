@@ -1,0 +1,12 @@
+-d C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\gwsynthesis\gowin_picorv32.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst
+-cfg C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\pnr\device.cfg
+-sdc C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.sdc
+-bit
+-tr
+-ph
+-posp
+-timing
+-route_maxfan 23

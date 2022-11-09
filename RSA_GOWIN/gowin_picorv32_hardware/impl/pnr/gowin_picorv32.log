@@ -1,0 +1,38 @@
+Reading netlist file: "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\gwsynthesis\gowin_picorv32.vg"
+Parsing netlist file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\gwsynthesis\gowin_picorv32.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst"
+WARN  (CT1135) : "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst":15 | Can't find object named 'gpio_io[0]'
+WARN  (CT1135) : "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst":16 | Can't find object named 'gpio_io[1]'
+WARN  (CT1135) : "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst":17 | Can't find object named 'gpio_io[2]'
+WARN  (CT1135) : "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst":18 | Can't find object named 'gpio_io[3]'
+WARN  (CT1135) : "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst":19 | Can't find object named 'gpio_io[0]'
+WARN  (CT1135) : "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst":20 | Can't find object named 'gpio_io[1]'
+WARN  (CT1135) : "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst":21 | Can't find object named 'gpio_io[2]'
+WARN  (CT1135) : "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32.cst":22 | Can't find object named 'gpio_io[3]'
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\pnr\gowin_picorv32.power.html" completed
+Generate file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\pnr\gowin_picorv32.pin.html" completed
+Generate file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\pnr\gowin_picorv32.rpt.html" completed
+Generate file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\pnr\gowin_picorv32.rpt.txt" completed
+Generate file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\pnr\gowin_picorv32.tr.html" completed
+Generate file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\pnr\gowin_picorv32.posp" completed
+Wed Nov 09 05:01:28 2022
+
