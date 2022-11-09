@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="Gowin_PicoRV32_template" Register="3775" Alu="652" Lut="5543" Dsp="1" Bsram="32" Ssram="8">
+    <SubModule name="ahbreg_demo_inst" Register="136" Alu="10" Lut="134" Bsram="2" Ssram="4">
+        <SubModule name="Y_RSA" Register="71" Lut="1022">
+            <SubModule name="y_mulit_mod">
+                <SubModule name="y_instance_name" Dsp="1"/>
+            </SubModule>
+        </SubModule>
+    </SubModule>
+</Module>
