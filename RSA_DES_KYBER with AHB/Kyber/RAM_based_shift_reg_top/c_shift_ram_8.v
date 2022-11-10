@@ -1,0 +1,65 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.8.07 Education"
+//Mon Nov 07 19:03:14 2022
+
+//Source file index table:
+//file0 "\C:/Gowin/Gowin_V1.9.8.07_Education/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg_top.v"
+//file1 "\C:/Gowin/Gowin_V1.9.8.07_Education/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg.v"
+`pragma protect begin_protected
+`pragma protect version="2.1"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.1"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2021-10",key_method="rsa"
+`pragma protect key_block
+bOxFeeyAxEbivPH9rAFg/qzo8LaqJbG4Hnuz5EGvrJqU3mjBWt66PZLnmamXEkU/u6rQ1h/bRxKn
+r4jQDcC3eLPs+r6sg497OhYJf1QlzHbeibL4TMv32FVK5EXxP7aW4LKfg5/2elaJe5c6O8iI34uD
+zZzLd/OtQRwd7vOO7AitPeq4lvF2loOtrm65LP0LzV5g4ZukjPIkgtbbuolDQWCFfcsfkCkiX/8m
+TMcvBP3li25RqBIObzildtjSqE/fETWCG5Y1eq7S4xzm8j8oEhOp0zImV4vSxWXLOH8BdGcJHlzH
+GQFBzEN0ynYxjwwdGj4hwlln29S4w5YPWmVw6Q==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=1968)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cbc"
+`pragma protect data_block
+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
+`pragma protect end_protected

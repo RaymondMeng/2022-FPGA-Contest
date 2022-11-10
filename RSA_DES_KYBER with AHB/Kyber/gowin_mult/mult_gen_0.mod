@@ -1,0 +1,24 @@
+-series GW2A
+-device GW2A-18C
+-package PBGA256
+-part_number GW2A-LV18PG256C8/I7
+
+
+-mod_name mult_gen_0
+-file_name mult_gen_0
+-path C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_mult/
+-type MULT
+-file_type vlg
+-source_a parallel
+-source_b parallel
+-width_a 12
+-width_b 12
+-data_type_a unsigned
+-data_type_b unsigned
+-en_shiftout_a false
+-en_shiftout_b false
+-reset_mode sync
+-ina_reg registered
+-inb_reg registered
+-pipe_reg bypass
+-out_reg registered
