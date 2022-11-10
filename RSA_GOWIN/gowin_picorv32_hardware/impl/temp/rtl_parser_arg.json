@@ -1,43 +1,43 @@
 {
  "Files" : [
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/ahbreg.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/RSA/RSA_top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/button.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/RSA/gowin_mult/gowin_mult.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/gowin_picorv32/gowin_picorv32.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/RSA/key_gen.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/picorv32_top.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/RSA/multi_mod.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/tb_ahbreg.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/ahbreg.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/RSA/key_gen.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/button.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/RSA/multi_mod.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/fifo_hs/fifo_hs.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/RSA/RSA_top.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/gowin_picorv32/gowin_picorv32.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/RSA/gowin_mult/gowin_mult.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/picorv32_top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/fifo_hs/fifo_hs.v",
+   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/src/tb_ahbreg.v",
    "Type" : "verilog"
   }
  ],
@@ -45,7 +45,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/2022-FPGA-Contest/RSA_GOWIN/gowin_picorv32_hardware/impl/temp/rtl_parser.result",
  "Top" : "Gowin_PicoRV32_template",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_2008"
