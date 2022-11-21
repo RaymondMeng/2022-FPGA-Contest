@@ -1,236 +1,236 @@
 {
  "Files" : [
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/LUT.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/LUT.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_11.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_11.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_2.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_2.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_3.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_3.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_5.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_5.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_6.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_6.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_8.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_8.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_9.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_9.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/_to_32bits.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/_to_32bits.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/decode_Client.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/decode_Client.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/decode_Server.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/decode_Server.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/decode_keccak.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/decode_keccak.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/encode_Client.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/encode_Client.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/encode_Server.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/encode_Server.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_0.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_0.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_1.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_1.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_2.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_2.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_3.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_3.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_4.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_4.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_5.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_5.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_6.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_6.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_7.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_7.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_8.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_8.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_mult/mult_gen_0.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_mult/mult_gen_0.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_5.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_5.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_6.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_6.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_7.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_7.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_rpll/gowin_rpll.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_rpll/gowin_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_1.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_1.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Client.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Server.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Server.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kerber_top.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kerber_top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pattern.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pattern.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pw_top _ahb.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pw_top _ahb.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/reduc.v",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/reduc.v",
    "Type" : "verilog"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Keccak1600.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RegisterFDRE.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RegisterFDRE.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/StateMachine.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/StateMachine.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/chi.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/chi.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/iota.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/iota.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pi.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pi.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/rho.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/rho.vhd",
    "Type" : "vhdl"
   },
   {
    "Library" : "work",
-   "Path" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/theta.vhd",
+   "Path" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/theta.vhd",
    "Type" : "vhdl"
   }
  ],
@@ -238,7 +238,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/impl/temp/rtl_parser.result",
  "Top" : "Kyber_Client",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

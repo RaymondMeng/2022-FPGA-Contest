@@ -1,0 +1,60 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/RSA_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/gowin_mult/gowin_mult.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/key_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/multi_mod.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/button.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/fifo_hs/fifo_hs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/fifo_sc_hs/fifo_sc_hs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/picorv32_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/tb_ahbreg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/wbreg.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/impl/temp/rtl_parser.result",
+ "Top" : "Gowin_PicoRV32_template",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

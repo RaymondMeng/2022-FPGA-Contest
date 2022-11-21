@@ -1,0 +1,23 @@
+[General]
+ipc_version=4
+file=gowin_picorv32
+module=Gowin_PicoRV32_Top
+target_device=gw2a18c-011
+type=gowin_picorv32
+version=1.0
+
+[Config]
+DisableIO=false
+Enable_Simple_Uart=true
+Enable_Wishbone_Uart=true
+ILM_INI_FILE=C:/Program D/kyber/gowin_picorv32_mcu/gowin_picorv32/Debug/ram32.hex
+ILM_SIZE=32KB
+LANG=0
+MCU_BOOT_FROM_EXTERNAL_FLASH_RUN_IN_ITCM=false
+MCU_BOOT_RUN_IN_EXT=false
+MCU_BOOT_RUN_IN_ITCM=true
+Synthesis_tool=GowinSynthesis
+key_ip_device_id=gw2a18c-011
+createin_path=.
+Enble_Open_AHB_Interface=true
+Enable_Wishbone_I2C_Master=true

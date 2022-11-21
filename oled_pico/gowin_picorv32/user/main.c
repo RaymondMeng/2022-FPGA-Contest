@@ -41,11 +41,13 @@ uint8_t irq13_flag = 0;	//wbuart interrutp
 uint8_t irq20_flag = 0; //an external button interrupt
 uint8_t irq21_flag = 0; //an external button interrupt
 
-uint8_t tx_buffer[100] = {0,1,2,3,4,5,6,7,8,9};
-uint8_t rx_buffer[100] = {0};
+uint8_t tx_buffer[100] ;
+uint8_t rx_buffer[100]= {0} ;
 
 uint32_t wbuart_rx_buffer = 0;
 uint32_t timer_count = 0;
+
+int i;
 
 void ahbreg_demo(void);
 void page_1(void);
@@ -123,33 +125,21 @@ int main(void)
 
 		if(irq13_flag == 1)  //wbuart rx interrupt
 		{
-			printf("\r\nEnter WBUART RX interrupt...\r\n");
+
 			//when a byte is received, the wbuart interrupt will be triggered
 			//display it on uart terminal and move on.
 			irq13_flag = 0;
-			wbuart_rx_buffer = wbuart_getc();
-			printf("Receive a byte in WBUART RX interrupt : %x\r\n", wbuart_rx_buffer);
+			rx_buffer[i] = wbuart_getc();
+			i++;
 			irq_enable_one_bit(13);
 		}
-
-		if(irq20_flag == 1)  //a test interrupt input by a button
+		if(rx_buffer[0]== 1)
 		{
-			printf("\r\nPress button 1, enter an external interrupt 20...\r\n");
-			//when the button is pushed. interrupt 20 will be triggered
-			//display the interrupt information on uart terminal and move on.
-			irq20_flag = 0;
-			printf("Interrupt 20 is triggered by button 1\r\n");
-			irq_enable_one_bit(20);
+			page_2();
+			if(i> 1 )
 		}
 
-		if(irq21_flag == 1)//another test interrupt also input by a button
-		{
-			printf("\r\nPress button 2, enter an external interrupt 21...\r\n");
-			//same as interrupt 20
-			irq21_flag = 0;
-			printf("Interrupt 21 is triggered by button 2\r\n");
-			irq_enable_one_bit(21);
-		}
+
 	}
 	OLED_Init();
 	OLED_FullyClear();
@@ -165,17 +155,13 @@ int main(void)
 	OLED_ClearRAM();
 	page_5();
 	OLED_ClearRAM();
-	printf("i2c test end\r\n");
+
 	while(1)
 	{
-		printf("cycle\r\n");
-		delay(SYSCLKFREQ >> 1);
-		//ahbreg_demo();
-		printf("enter simple\r\n");
-		for(int i=0;i<5;i++)
+		if(rx_buffer[0]== 1)
 		{
-			printf("simple\r\n");
-		    //uart_putchar('a');
+			page_2();
+			if(i> 1 )
 		}
 	}
 
@@ -208,7 +194,7 @@ void page_1(void)//type select
 	OLED_ShowStr(0,9,"1.Kyber",1);
 	OLED_ShowStr(0,18,"2.RSA",1);
 	OLED_ShowStr(0,27,"3.DES",1);
-	OLED_ShowStr(0,36,"4.AES",1);
+
 	OLED_RefreshRAM();
 }
 

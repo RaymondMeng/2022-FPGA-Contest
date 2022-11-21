@@ -1,0 +1,170 @@
+[
+ {
+  "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/button.v",
+  "InstLine" : 2,
+  "InstName" : "button",
+  "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/button.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "button"
+ },
+ {
+  "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/picorv32_top.v",
+  "InstLine" : 4,
+  "InstName" : "Gowin_PicoRV32_template",
+  "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/picorv32_top.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "Gowin_PicoRV32_template",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 69,
+    "InstName" : "Gowin_PicoRV32_Top_inst",
+    "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Gowin_PicoRV32_Top"
+   },
+   {
+    "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 94,
+    "InstName" : "ahbreg_demo_inst",
+    "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "ahbreg_demo",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+      "InstLine" : 162,
+      "InstName" : "IFIFO",
+      "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/fifo_sc_hs/fifo_sc_hs.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "FIFO_SC_HS_Top"
+     },
+     {
+      "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+      "InstLine" : 188,
+      "InstName" : "OFIFO",
+      "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/fifo_sc_hs/fifo_sc_hs.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "FIFO_SC_HS_Top"
+     },
+     {
+      "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+      "InstLine" : 199,
+      "InstName" : "Y_RSA",
+      "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/RSA_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "RSA_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/RSA_top.v",
+        "InstLine" : 81,
+        "InstName" : "y_key_gen",
+        "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/key_gen.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "key_gen"
+       },
+       {
+        "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/RSA_top.v",
+        "InstLine" : 89,
+        "InstName" : "y_mulit_mod",
+        "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/multi_mod.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "multi_mod",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/multi_mod.v",
+          "InstLine" : 54,
+          "InstName" : "y_instance_name",
+          "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/gowin_mult/gowin_mult.v",
+          "ModuleLine" : 9,
+          "ModuleName" : "Gowin_MULT"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/tb_ahbreg.v",
+  "InstLine" : 3,
+  "InstName" : "tb_RSA",
+  "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/tb_ahbreg.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "tb_RSA",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/tb_ahbreg.v",
+    "InstLine" : 77,
+    "InstName" : "dut",
+    "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "ahbreg_demo",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+      "InstLine" : 162,
+      "InstName" : "IFIFO",
+      "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/fifo_sc_hs/fifo_sc_hs.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "FIFO_SC_HS_Top"
+     },
+     {
+      "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+      "InstLine" : 188,
+      "InstName" : "OFIFO",
+      "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/fifo_sc_hs/fifo_sc_hs.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "FIFO_SC_HS_Top"
+     },
+     {
+      "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/ahbreg.v",
+      "InstLine" : 199,
+      "InstName" : "Y_RSA",
+      "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/RSA_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "RSA_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/RSA_top.v",
+        "InstLine" : 81,
+        "InstName" : "y_key_gen",
+        "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/key_gen.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "key_gen"
+       },
+       {
+        "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/RSA_top.v",
+        "InstLine" : 89,
+        "InstName" : "y_mulit_mod",
+        "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/multi_mod.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "multi_mod",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/multi_mod.v",
+          "InstLine" : 54,
+          "InstName" : "y_instance_name",
+          "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/RSA/gowin_mult/gowin_mult.v",
+          "ModuleLine" : 9,
+          "ModuleName" : "Gowin_MULT"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/wbreg.v",
+  "InstLine" : 2,
+  "InstName" : "wbreg_demo",
+  "ModuleFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V3_nkyber_jiemi/gowin_picorv32/src/wbreg.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "wbreg_demo"
+ }
+]
