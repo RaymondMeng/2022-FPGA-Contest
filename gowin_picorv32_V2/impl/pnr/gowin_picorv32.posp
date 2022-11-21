@@ -1,0 +1,42 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved.
+//File Title: Post-Place file
+//GOWIN Version: V1.9.8.07 Education
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18C
+//Created Time: Sat Nov 19 19:22:31 2022
+
+Gowin_PicoRV32_Top_inst/dtcm/mem_0_mem_0_0_0_s PLACE_BSRAM_R46[6]
+Gowin_PicoRV32_Top_inst/dtcm/mem_0_mem_0_0_1_s PLACE_BSRAM_R46[7]
+Gowin_PicoRV32_Top_inst/dtcm/mem_0_mem_0_0_2_s PLACE_BSRAM_R46[8]
+Gowin_PicoRV32_Top_inst/dtcm/mem_0_mem_0_0_3_s PLACE_BSRAM_R28[8]
+Gowin_PicoRV32_Top_inst/dtcm/mem_1_mem_1_0_0_s PLACE_BSRAM_R46[9]
+Gowin_PicoRV32_Top_inst/dtcm/mem_1_mem_1_0_1_s PLACE_BSRAM_R28[9]
+Gowin_PicoRV32_Top_inst/dtcm/mem_1_mem_1_0_2_s PLACE_BSRAM_R46[10]
+Gowin_PicoRV32_Top_inst/dtcm/mem_1_mem_1_0_3_s PLACE_BSRAM_R28[10]
+Gowin_PicoRV32_Top_inst/dtcm/mem_2_mem_2_0_0_s PLACE_BSRAM_R46[11]
+Gowin_PicoRV32_Top_inst/dtcm/mem_2_mem_2_0_1_s PLACE_BSRAM_R28[11]
+Gowin_PicoRV32_Top_inst/dtcm/mem_2_mem_2_0_2_s PLACE_BSRAM_R46[12]
+Gowin_PicoRV32_Top_inst/dtcm/mem_2_mem_2_0_3_s PLACE_BSRAM_R28[12]
+Gowin_PicoRV32_Top_inst/dtcm/mem_3_mem_3_0_0_s PLACE_BSRAM_R46[13]
+Gowin_PicoRV32_Top_inst/dtcm/mem_3_mem_3_0_1_s PLACE_BSRAM_R28[13]
+Gowin_PicoRV32_Top_inst/dtcm/mem_3_mem_3_0_2_s PLACE_BSRAM_R46[14]
+Gowin_PicoRV32_Top_inst/dtcm/mem_3_mem_3_0_3_s PLACE_BSRAM_R46[15]
+Gowin_PicoRV32_Top_inst/itcm/memory_0_memory_0_0_0_s PLACE_BSRAM_R28[4]
+Gowin_PicoRV32_Top_inst/itcm/memory_0_memory_0_0_1_s PLACE_BSRAM_R10[4]
+Gowin_PicoRV32_Top_inst/itcm/memory_0_memory_0_0_2_s PLACE_BSRAM_R28[5]
+Gowin_PicoRV32_Top_inst/itcm/memory_0_memory_0_0_3_s PLACE_BSRAM_R10[5]
+Gowin_PicoRV32_Top_inst/itcm/memory_1_memory_1_0_0_s PLACE_BSRAM_R28[6]
+Gowin_PicoRV32_Top_inst/itcm/memory_1_memory_1_0_1_s PLACE_BSRAM_R10[6]
+Gowin_PicoRV32_Top_inst/itcm/memory_1_memory_1_0_2_s PLACE_BSRAM_R28[7]
+Gowin_PicoRV32_Top_inst/itcm/memory_1_memory_1_0_3_s PLACE_BSRAM_R10[7]
+Gowin_PicoRV32_Top_inst/itcm/memory_2_memory_2_0_0_s PLACE_BSRAM_R10[8]
+Gowin_PicoRV32_Top_inst/itcm/memory_2_memory_2_0_1_s PLACE_BSRAM_R10[9]
+Gowin_PicoRV32_Top_inst/itcm/memory_2_memory_2_0_2_s PLACE_BSRAM_R10[10]
+Gowin_PicoRV32_Top_inst/itcm/memory_2_memory_2_0_3_s PLACE_BSRAM_R10[11]
+Gowin_PicoRV32_Top_inst/itcm/memory_3_memory_3_0_0_s PLACE_BSRAM_R10[12]
+Gowin_PicoRV32_Top_inst/itcm/memory_3_memory_3_0_1_s PLACE_BSRAM_R10[13]
+Gowin_PicoRV32_Top_inst/itcm/memory_3_memory_3_0_2_s PLACE_BSRAM_R10[14]
+Gowin_PicoRV32_Top_inst/itcm/memory_3_memory_3_0_3_s PLACE_BSRAM_R10[15]
+ahbreg_demo_inst/IFIFO_RSA/fifo_sc_hs_inst/mem_mem_0_0_s PLACE_BSRAM_R28[3]
+Gowin_PicoRV32_Top_inst/core/pcpi_mul/mult_35_s2 PLACE_DSP_R19[1] //R19C11

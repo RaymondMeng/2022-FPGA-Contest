@@ -1,0 +1,123 @@
+   1              	# 1 "../src/custom_ops.S"
+   1              	/*
+   0              	
+   0              	
+   0              	
+   2              	 ******************************************************************************************
+   3              	 *
+   4              	 * 		Copyright (C) 2014-2022 Gowin Semiconductor Technology Co.,Ltd.
+   5              	 *
+   6              	 * @file		custom_ops.S
+   7              	 * @author		Embedded Development Team
+   8              	 * @version		V1.2.x
+   9              	 * @date		2022-01-01 09:00:00
+  10              	 * @brief		custom options for user-defined instructions
+  11              	 *******************************************************************************************
+  12              	 */
+  13              	
+  14              	/*
+  15              	 * for user-defined instructions
+  16              	 *
+  17              	 */
+  18              	#define regnum_q0   0
+  19              	#define regnum_q1   1
+  20              	#define regnum_q2   2
+  21              	#define regnum_q3   3
+  22              	
+  23              	#define regnum_x0   0
+  24              	#define regnum_x1   1
+  25              	#define regnum_x2   2
+  26              	#define regnum_x3   3
+  27              	#define regnum_x4   4
+  28              	#define regnum_x5   5
+  29              	#define regnum_x6   6
+  30              	#define regnum_x7   7
+  31              	#define regnum_x8   8
+  32              	#define regnum_x9   9
+  33              	#define regnum_x10 10
+  34              	#define regnum_x11 11
+  35              	#define regnum_x12 12
+  36              	#define regnum_x13 13
+  37              	#define regnum_x14 14
+  38              	#define regnum_x15 15
+  39              	#define regnum_x16 16
+  40              	#define regnum_x17 17
+  41              	#define regnum_x18 18
+  42              	#define regnum_x19 19
+  43              	#define regnum_x20 20
+  44              	#define regnum_x21 21
+  45              	#define regnum_x22 22
+  46              	#define regnum_x23 23
+  47              	#define regnum_x24 24
+  48              	#define regnum_x25 25
+  49              	#define regnum_x26 26
+  50              	#define regnum_x27 27
+  51              	#define regnum_x28 28
+  52              	#define regnum_x29 29
+  53              	#define regnum_x30 30
+  54              	#define regnum_x31 31
+  55              	
+  56              	#define regnum_zero 0
+  57              	#define regnum_ra   1
+  58              	#define regnum_sp   2
+  59              	#define regnum_gp   3
+  60              	#define regnum_tp   4
+  61              	#define regnum_t0   5
+  62              	#define regnum_t1   6
+  63              	#define regnum_t2   7
+  64              	#define regnum_s0   8
+  65              	#define regnum_s1   9
+  66              	#define regnum_a0  10
+  67              	#define regnum_a1  11
+  68              	#define regnum_a2  12
+  69              	#define regnum_a3  13
+  70              	#define regnum_a4  14
+  71              	#define regnum_a5  15
+  72              	#define regnum_a6  16
+  73              	#define regnum_a7  17
+  74              	#define regnum_s2  18
+  75              	#define regnum_s3  19
+  76              	#define regnum_s4  20
+  77              	#define regnum_s5  21
+  78              	#define regnum_s6  22
+  79              	#define regnum_s7  23
+  80              	#define regnum_s8  24
+  81              	#define regnum_s9  25
+  82              	#define regnum_s10 26
+  83              	#define regnum_s11 27
+  84              	#define regnum_t3  28
+  85              	#define regnum_t4  29
+  86              	#define regnum_t5  30
+  87              	#define regnum_t6  31
+  88              	
+  89              	// x8 is s0 and also fp
+  90              	#define regnum_fp   8
+  91              	
+  92              	#define r_type_insn(_f7, _rs2, _rs1, _f3, _rd, _opc) \
+  93              	.word (((_f7) << 25) | ((_rs2) << 20) | ((_rs1) << 15) | ((_f3) << 12) | ((_rd) << 7) | ((_opc) << 
+  94              	
+  95              	#define r_type_insn1(_f7, _rs2, _rs1, _f3, _rd, _opc) \
+  96              	(((_f7) << 25) | ((_rs2) << 20) | ((_rs1) << 15) | ((_f3) << 12) | ((_rd) << 7) | ((_opc) << 0))
+  97              	
+  98              	#define picorv32_getq_insn(_rd, _qs) \
+  99              	r_type_insn(0b0000000, 0, regnum_ ## _qs, 0b100, regnum_ ## _rd, 0b0001011)
+ 100              	
+ 101              	#define picorv32_setq_insn(_qd, _rs) \
+ 102              	r_type_insn(0b0000001, 0, regnum_ ## _rs, 0b010, regnum_ ## _qd, 0b0001011)
+ 103              	
+ 104              	#define picorv32_retirq_insn() \
+ 105              	r_type_insn(0b0000010, 0, 0, 0b000, 0, 0b0001011)
+ 106              	
+ 107              	#define picorv32_retirq_insn1() \
+ 108              	r_type_insn1(0b0000010, 0, 0, 0b000, 0, 0b0001011)
+ 109              	
+ 110              	#define picorv32_maskirq_insn(_rd, _rs) \
+ 111              	r_type_insn(0b0000011, 0, regnum_ ## _rs, 0b110, regnum_ ## _rd, 0b0001011)
+ 112              	
+ 113              	#define picorv32_waitirq_insn(_rd) \
+ 114              	r_type_insn(0b0000100, 0, 0, 0b100, regnum_ ## _rd, 0b0001011)
+ 115              	
+ 116              	#define picorv32_timer_insn(_rd, _rs) \
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

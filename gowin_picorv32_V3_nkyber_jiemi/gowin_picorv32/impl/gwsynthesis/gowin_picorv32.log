@@ -1,0 +1,177 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\RSA_top.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\gowin_mult\gowin_mult.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\key_gen.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\multi_mod.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\ahbreg.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\button.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\fifo_hs\fifo_hs.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\fifo_sc_hs\fifo_sc_hs.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\tb_ahbreg.v'
+Analyzing Verilog file 'C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\wbreg.v'
+WARN  (EX2565) : Port 'irq_in' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX2565) : Port 'jtag_TDI' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX3073) : Port 'jtag_TDO' remains unconnected for this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX2565) : Port 'jtag_TCK' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX2565) : Port 'jtag_TMS' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+Compiling module 'Gowin_PicoRV32_template'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":4)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\gowin_picorv32\gowin_picorv32.v":0)
+Compiling module 'ahbreg_demo'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\ahbreg.v":2)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\fifo_sc_hs\fifo_sc_hs.v":0)
+Compiling module '**'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\fifo_sc_hs\fifo_sc_hs.v":0)
+Compiling module 'RSA_top'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\RSA_top.v":1)
+WARN  (EX2420) : Latch inferred for net 'a[31]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\RSA_top.v":25)
+Compiling module 'key_gen'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\key_gen.v":3)
+WARN  (EX3780) : Using initial value of 'temp_N' since it is never assigned("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\key_gen.v":15)
+Compiling module 'multi_mod'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\multi_mod.v":1)
+Compiling module 'Gowin_MULT'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\gowin_mult\gowin_mult.v":9)
+WARN  (EX3670) : Actual bit length 3 differs from formal bit length 1 for port 'hsize'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":100)
+WARN  (EX3670) : Actual bit length 3 differs from formal bit length 1 for port 'hburst'("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":101)
+WARN  (EX1987) : Input port 'irq_in[31]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[30]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[29]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[28]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[27]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[26]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[25]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[24]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[23]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[22]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[21]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1987) : Input port 'irq_in[20]' is not connected on this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1947) : Input port 'jtag_TDI' remains unconnected for this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1947) : Input port 'jtag_TCK' remains unconnected for this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+WARN  (EX1947) : Input port 'jtag_TMS' remains unconnected for this instance("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":89)
+NOTE  (EX0101) : Current top module is "Gowin_PicoRV32_template"
+WARN  (EX0211) : The output port "ahbreg0[3]" of module "ahbreg_demo" has no driver("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\ahbreg.v":16)
+WARN  (EX0211) : The output port "ahbreg0[2]" of module "ahbreg_demo" has no driver("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\ahbreg.v":16)
+WARN  (EX0211) : The output port "ahbreg0[1]" of module "ahbreg_demo" has no driver("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\ahbreg.v":16)
+WARN  (EX0211) : The output port "ahbreg0[0]" of module "ahbreg_demo" has no driver("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\ahbreg.v":16)
+[5%] Running netlist conversion ...
+WARN  (CV0003) : Output "ahbreg_test[0]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":34)
+WARN  (CV0003) : Output "ahbreg_test[1]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":34)
+WARN  (CV0003) : Output "ahbreg_test[2]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":34)
+WARN  (CV0003) : Output "ahbreg_test[3]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\picorv32_top.v":34)
+Running device independent optimization ...
+WARN  (DI0002) : Asynchronous register "i[0]" initial values do not match with the Gowin library, simulation mismatch possible("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\RSA_top.v":76)
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "key_gen" instantiated to "y_key_gen" is swept in optimizing("C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\src\RSA\RSA_top.v":87)
+[95%] Generate netlist file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\impl\gwsynthesis\gowin_picorv32.vg" completed
+[100%] Generate report file "C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V3_nkyber\gowin_picorv32\impl\gwsynthesis\gowin_picorv32_syn.rpt.html" completed
+GowinSynthesis finish

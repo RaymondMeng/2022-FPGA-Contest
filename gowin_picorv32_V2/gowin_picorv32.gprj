@@ -1,0 +1,76 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/RSA/RSA_top.v" type="file.verilog" enable="1"/>
+        <File path="src/RSA/gowin_mult/gowin_mult.v" type="file.verilog" enable="1"/>
+        <File path="src/RSA/key_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/RSA/multi_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/RSA/tb_RSA.v" type="file.verilog" enable="0"/>
+        <File path="src/ahbreg.v" type="file.verilog" enable="1"/>
+        <File path="src/button.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_hs/fifo_hs.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_hs/fifo_sc_hs.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_picorv32/gowin_picorv32.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/LUT.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/NTT_core_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_0.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_1.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_11.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_2.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_3.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_4.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_5.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_6.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_8.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/RAM_based_shift_reg_top/c_shift_ram_9.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/_to_32bits.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/butterfly_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/decode_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/decode_keccak.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/encode_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_0.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_1.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_2.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_3.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_4.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_5.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_6.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_7.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/fifo_sc_hs/fifo_generator_8.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_mult/mult_gen_0.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_prom/dist_mem_gen_0.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_prom/dist_mem_gen_1.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_prom/dist_mem_gen_5.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_prom/dist_mem_gen_6.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_prom/dist_mem_gen_7.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_sdpb/blk_mem_gen_0.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_sdpb/blk_mem_gen_1.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/gowin_sdpb/blk_mem_gen_2.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/hash_core_Client.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/kerber_top.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/keyber_client.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/mux4to2.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/pattern.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/pw_top _ahb.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/reduc.v" type="file.verilog" enable="1"/>
+        <File path="src/picorv32_top.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_ahbreg.v" type="file.verilog" enable="1"/>
+        <File path="src/kyber/Keccak1600.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kyber/RegisterFDRE.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kyber/Round.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kyber/StateMachine.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kyber/chi.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kyber/iota.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kyber/pi.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kyber/rho.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kyber/theta.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/picorv32.cst" type="file.cst" enable="1"/>
+        <File path="src/picorv32.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

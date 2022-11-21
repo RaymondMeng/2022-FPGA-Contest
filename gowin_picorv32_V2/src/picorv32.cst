@@ -1,0 +1,97 @@
+
+//DK-START-GW2A18 V2.0
+//GW2A-18C (version C)
+//GW2A-LV18PG256C8/I7
+
+//System clock
+IO_LOC "clk_in" H11;
+IO_PORT "clk_in" IO_TYPE=LVCMOS25;
+
+//System reset
+IO_LOC "resetn_in" T2;//KEY_4
+IO_PORT "resetn_in" IO_TYPE=LVCMOS15;
+
+//LED
+IO_LOC "gpio_io[0]" N16;//LED1
+IO_LOC "gpio_io[1]" N14;//LED2
+IO_LOC "gpio_io[2]" L14;//LED3
+IO_LOC "gpio_io[3]" L16;//LED4
+IO_PORT "gpio_io[0]" IO_TYPE=LVCMOS25;
+IO_PORT "gpio_io[1]" IO_TYPE=LVCMOS25;
+IO_PORT "gpio_io[2]" IO_TYPE=LVCMOS25;
+IO_PORT "gpio_io[3]" IO_TYPE=LVCMOS25;
+
+//WB UART
+IO_LOC "wbuart_tx" M11;//J4_5
+IO_LOC "wbuart_rx" T13;//J4_6
+IO_PORT "wbuart_tx" IO_TYPE=LVCMOS25;
+IO_PORT "wbuart_rx" IO_TYPE=LVCMOS25;
+
+//Simple UART
+IO_LOC "ser_tx" A11;//J4_7
+IO_LOC "ser_rx" B11;//J4_8 
+IO_PORT "ser_tx" IO_TYPE=LVCMOS25;
+IO_PORT "ser_rx" IO_TYPE=LVCMOS25;
+
+//WB SPI Master
+//IO_LOC "wbspi_master_miso" G13;//J4_9
+//IO_LOC "wbspi_master_mosi" L13;//J4_10
+//IO_LOC "wbspi_master_ssn" L15;//J4_11
+//IO_LOC "wbspi_master_sclk" M15;//J4_12
+//IO_PORT "wbspi_master_miso" IO_TYPE=LVCMOS25;
+//IO_PORT "wbspi_master_mosi" IO_TYPE=LVCMOS25;
+//IO_PORT "wbspi_master_ssn" IO_TYPE=LVCMOS25;
+//IO_PORT "wbspi_master_sclk" IO_TYPE=LVCMOS25;
+
+//WB SPI Slave
+//IO_LOC "wbspi_slave_miso" J16;//J4_13
+//IO_LOC "wbspi_slave_mosi" L12;//J4_14
+//IO_LOC "wbspi_slave_ssn" K13;//J4_15
+//IO_LOC "wbspi_slave_sclk" K11;//J4_16
+//IO_PORT "wbspi_slave_miso" IO_TYPE=LVCMOS25;
+//IO_PORT "wbspi_slave_mosi" IO_TYPE=LVCMOS25;
+//IO_PORT "wbspi_slave_ssn" IO_TYPE=LVCMOS25;
+//IO_PORT "wbspi_slave_sclk" IO_TYPE=LVCMOS25;
+
+//WB I2C
+IO_LOC "wbi2c_sda" T6;//J4_17
+IO_LOC "wbi2c_scl" P6;//J4_18
+IO_PORT "wbi2c_sda" IO_TYPE=LVCMOS25;
+IO_PORT "wbi2c_scl" IO_TYPE=LVCMOS25;
+
+//ADV SPI-Flash
+//IO_LOC "io_spi_clk" L10;
+//IO_LOC "io_spi_csn" M9;
+//IO_LOC "io_spi_mosi" R10;
+//IO_LOC "io_spi_miso" P10;
+//IO_PORT "io_spi_clk" IO_TYPE=LVCMOS25;
+//IO_PORT "io_spi_csn" IO_TYPE=LVCMOS25;
+//IO_PORT "io_spi_mosi" IO_TYPE=LVCMOS25;
+//IO_PORT "io_spi_miso" IO_TYPE=LVCMOS25;
+
+//External Interrupt
+//IO_LOC "irq_in[0]" T3;//KEY_1
+//IO_LOC "irq_in[1]" T2;//KYE_2
+//IO_PORT "irq_in[0]" IO_TYPE=LVCMOS15;
+//IO_PORT "irq_in[1]" IO_TYPE=LVCMOS15;
+
+//Test Open AHB bus
+//IO_LOC "ahbreg_test[0]" J12;//J4_19
+//IO_LOC "ahbreg_test[1]" G15;//J4_20
+//IO_LOC "ahbreg_test[2]" E15;//J4_21
+//IO_LOC "ahbreg_test[3]" C16;//J4_22
+//IO_PORT "ahbreg_test[0]" IO_TYPE=LVCMOS25;
+//IO_PORT "ahbreg_test[1]" IO_TYPE=LVCMOS25;
+//IO_PORT "ahbreg_test[2]" IO_TYPE=LVCMOS25;
+//IO_PORT "ahbreg_test[3]" IO_TYPE=LVCMOS25;
+
+//JTAG
+//IO_LOC "jtag_TDI" A6;//J3_5
+//IO_LOC "jtag_TDO" B8;//J3_13
+//IO_LOC "jtag_TCK" A7;//J3_9
+//IO_LOC "jtag_TMS" C6;//J3_7
+
+//IO_PORT "jtag_TDI" IO_TYPE=LVCMOS25;
+//IO_PORT "jtag_TDO" IO_TYPE=LVCMOS25;
+//IO_PORT "jtag_TCK" IO_TYPE=LVCMOS25;
+//IO_PORT "jtag_TMS" IO_TYPE=LVCMOS25;

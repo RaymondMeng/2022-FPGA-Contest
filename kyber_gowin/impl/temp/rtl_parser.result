@@ -1,1047 +1,1047 @@
 [
  {
-  "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/LUT.v",
+  "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/LUT.v",
   "InstLine" : 1,
   "InstName" : "LUT0",
-  "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/LUT.v",
+  "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/LUT.v",
   "ModuleLine" : 1,
   "ModuleName" : "LUT0"
  },
  {
-  "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/LUT.v",
+  "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/LUT.v",
   "InstLine" : 26,
   "InstName" : "LUT1",
-  "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/LUT.v",
+  "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/LUT.v",
   "ModuleLine" : 26,
   "ModuleName" : "LUT1"
  },
  {
-  "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/_to_32bits.v",
+  "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/_to_32bits.v",
   "InstLine" : 1,
   "InstName" : "_to_32bits",
-  "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/_to_32bits.v",
+  "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/_to_32bits.v",
   "ModuleLine" : 1,
   "ModuleName" : "_to_32bits"
  },
  {
-  "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+  "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
   "InstLine" : 2,
   "InstName" : "Kyber_Server",
-  "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+  "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
   "ModuleLine" : 2,
   "ModuleName" : "Kyber_Server",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 676,
     "InstName" : "IFIFO",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_2.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_2.v",
     "ModuleLine" : 1,
     "ModuleName" : "fifo_generator_2"
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 677,
     "InstName" : "OFIFO",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_3.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_3.v",
     "ModuleLine" : 1,
     "ModuleName" : "fifo_generator_3"
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 678,
     "InstName" : "DFIFO0",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_4.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_4.v",
     "ModuleLine" : 1,
     "ModuleName" : "fifo_generator_4"
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 679,
     "InstName" : "DFIFO1",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_5.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_5.v",
     "ModuleLine" : 1,
     "ModuleName" : "fifo_generator_5"
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 614,
     "InstName" : "ntt",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
     "ModuleLine" : 2,
     "ModuleName" : "NTT_core_Server",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 666,
       "InstName" : "S3",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_2.v",
       "ModuleLine" : 1,
       "ModuleName" : "c_shift_ram_2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 667,
       "InstName" : "S4",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_3.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_3.v",
       "ModuleLine" : 1,
       "ModuleName" : "c_shift_ram_3"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 668,
       "InstName" : "S5",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
       "ModuleLine" : 1,
       "ModuleName" : "c_shift_ram_4"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 669,
       "InstName" : "S6",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
       "ModuleLine" : 1,
       "ModuleName" : "c_shift_ram_4"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 670,
       "InstName" : "S7",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_5.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_5.v",
       "ModuleLine" : 1,
       "ModuleName" : "c_shift_ram_5"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 671,
       "InstName" : "S9",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_6.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_6.v",
       "ModuleLine" : 1,
       "ModuleName" : "c_shift_ram_6"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 672,
       "InstName" : "S10",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_8.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_8.v",
       "ModuleLine" : 1,
       "ModuleName" : "c_shift_ram_8"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 673,
       "InstName" : "S11",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_11.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_11.v",
       "ModuleLine" : 1,
       "ModuleName" : "c_shift_ram_11"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 639,
       "InstName" : "BU",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
       "ModuleLine" : 2,
       "ModuleName" : "butterfly_Ser",
       "SubInsts" : [
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 215,
         "InstName" : "S0",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
         "ModuleLine" : 1,
         "ModuleName" : "c_shift_ram_0"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 216,
         "InstName" : "S1",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
         "ModuleLine" : 1,
         "ModuleName" : "c_shift_ram_0"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 217,
         "InstName" : "S2",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
         "ModuleLine" : 1,
         "ModuleName" : "c_shift_ram_1"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 218,
         "InstName" : "S3",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
         "ModuleLine" : 1,
         "ModuleName" : "c_shift_ram_1"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 219,
         "InstName" : "S12",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_9.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_9.v",
         "ModuleLine" : 1,
         "ModuleName" : "c_shift_ram_9"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 220,
         "InstName" : "S13",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_9.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_9.v",
         "ModuleLine" : 1,
         "ModuleName" : "c_shift_ram_9"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 209,
         "InstName" : "M0",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_mult/mult_gen_0.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_mult/mult_gen_0.v",
         "ModuleLine" : 9,
         "ModuleName" : "mult_gen_0"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 210,
         "InstName" : "M1",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_mult/mult_gen_0.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_mult/mult_gen_0.v",
         "ModuleLine" : 9,
         "ModuleName" : "mult_gen_0"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 212,
         "InstName" : "R0",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/reduc.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/reduc.v",
         "ModuleLine" : 2,
         "ModuleName" : "reduc"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Server.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Server.v",
         "InstLine" : 213,
         "InstName" : "R1",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/reduc.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/reduc.v",
         "ModuleLine" : 2,
         "ModuleName" : "reduc"
        }
       ]
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 641,
       "InstName" : "ROM0",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_5.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_5.v",
       "ModuleLine" : 9,
       "ModuleName" : "dist_mem_gen_5"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 642,
       "InstName" : "ROM1",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_6.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_6.v",
       "ModuleLine" : 9,
       "ModuleName" : "dist_mem_gen_6"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 643,
       "InstName" : "ROM2",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_7.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_7.v",
       "ModuleLine" : 9,
       "ModuleName" : "dist_mem_gen_7"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 645,
       "InstName" : "RAM0",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
       "ModuleLine" : 9,
       "ModuleName" : "blk_mem_gen_0"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 646,
       "InstName" : "RAM1",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
       "ModuleLine" : 9,
       "ModuleName" : "blk_mem_gen_0"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 647,
       "InstName" : "RAM2",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
       "ModuleLine" : 9,
       "ModuleName" : "blk_mem_gen_2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 648,
       "InstName" : "RAM3",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
       "ModuleLine" : 9,
       "ModuleName" : "blk_mem_gen_2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 649,
       "InstName" : "RAM4",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_1.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_1.v",
       "ModuleLine" : 9,
       "ModuleName" : "blk_mem_gen_1"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 651,
       "InstName" : "m00",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 652,
       "InstName" : "m01",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 653,
       "InstName" : "m02",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 654,
       "InstName" : "m10",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 655,
       "InstName" : "m11",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 656,
       "InstName" : "m12",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 657,
       "InstName" : "m20",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 658,
       "InstName" : "m21",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 659,
       "InstName" : "m22",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 660,
       "InstName" : "m30",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 661,
       "InstName" : "m31",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Server.v",
       "InstLine" : 662,
       "InstName" : "m32",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
       "ModuleLine" : 1,
       "ModuleName" : "mux4to2"
      }
     ]
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 641,
     "InstName" : "hash",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Server.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Server.v",
     "ModuleLine" : 1,
     "ModuleName" : "hash_core_Server",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Server.v",
       "InstLine" : 193,
       "InstName" : "fifo0",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_0.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_0.v",
       "ModuleLine" : 1,
       "ModuleName" : "fifo_generator_0"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Server.v",
       "InstLine" : 194,
       "InstName" : "fifo1",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_1.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_1.v",
       "ModuleLine" : 1,
       "ModuleName" : "fifo_generator_1"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Server.v",
       "InstLine" : 195,
       "InstName" : "fifo2",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_7.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_7.v",
       "ModuleLine" : 1,
       "ModuleName" : "fifo_generator_7"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Server.v",
       "InstLine" : 196,
       "InstName" : "fifo8",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_8.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_8.v",
       "ModuleLine" : 1,
       "ModuleName" : "fifo_generator_8"
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Server.v",
       "InstLine" : 192,
       "InstName" : "hash",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Keccak1600.vhd",
       "ModuleLine" : 19,
       "ModuleName" : "Keccak1600",
       "SubInsts" : [
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Keccak1600.vhd",
         "InstLine" : 85,
         "InstName" : "RoundFunction",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
         "ModuleLine" : 19,
         "ModuleName" : "Round",
         "SubInsts" : [
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
           "InstLine" : 89,
           "InstName" : "Reg",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RegisterFDRE.vhd",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RegisterFDRE.vhd",
           "ModuleLine" : 18,
           "ModuleName" : "RegisterFDRE"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
           "InstLine" : 112,
           "InstName" : "T",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/theta.vhd",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/theta.vhd",
           "ModuleLine" : 19,
           "ModuleName" : "theta"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
           "InstLine" : 113,
           "InstName" : "R",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/rho.vhd",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/rho.vhd",
           "ModuleLine" : 19,
           "ModuleName" : "rho"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
           "InstLine" : 114,
           "InstName" : "P",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pi.vhd",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pi.vhd",
           "ModuleLine" : 19,
           "ModuleName" : "pi"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
           "InstLine" : 115,
           "InstName" : "C",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/chi.vhd",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/chi.vhd",
           "ModuleLine" : 19,
           "ModuleName" : "chi"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
           "InstLine" : 116,
           "InstName" : "I",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/iota.vhd",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/iota.vhd",
           "ModuleLine" : 19,
           "ModuleName" : "iota"
          }
         ]
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Keccak1600.vhd",
         "InstLine" : 102,
         "InstName" : "FSM",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/StateMachine.vhd",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/StateMachine.vhd",
         "ModuleLine" : 19,
         "ModuleName" : "StateMachine"
        }
       ]
      },
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Server.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Server.v",
       "InstLine" : 197,
       "InstName" : "decode",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/decode_keccak.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/decode_keccak.v",
       "ModuleLine" : 3,
       "ModuleName" : "decode_keccak"
      }
     ]
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 672,
     "InstName" : "decode",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/decode_Server.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/decode_Server.v",
     "ModuleLine" : 2,
     "ModuleName" : "decode_Server"
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 673,
     "InstName" : "encode",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/encode_Server.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/encode_Server.v",
     "ModuleLine" : 2,
     "ModuleName" : "encode_Server"
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kyber_server.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kyber_server.v",
     "InstLine" : 674,
     "InstName" : "pattern",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pattern.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pattern.v",
     "ModuleLine" : 1,
     "ModuleName" : "pattern"
    }
   ]
  },
  {
-  "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pw_top _ahb.v",
+  "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pw_top _ahb.v",
   "InstLine" : 2,
   "InstName" : "pw_ahb",
-  "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pw_top _ahb.v",
+  "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pw_top _ahb.v",
   "ModuleLine" : 2,
   "ModuleName" : "pw_ahb",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pw_top _ahb.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pw_top _ahb.v",
     "InstLine" : 87,
     "InstName" : "rPLL_KEM_CLK",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_rpll/gowin_rpll.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_rpll/gowin_rpll.v",
     "ModuleLine" : 9,
     "ModuleName" : "Gowin_rPLL"
    },
    {
-    "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pw_top _ahb.v",
+    "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pw_top _ahb.v",
     "InstLine" : 95,
     "InstName" : "Kyber_top_inst",
-    "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kerber_top.v",
+    "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kerber_top.v",
     "ModuleLine" : 2,
     "ModuleName" : "Kyber_top",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/kerber_top.v",
+      "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/kerber_top.v",
       "InstLine" : 28,
       "InstName" : "C",
-      "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+      "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
       "ModuleLine" : 2,
       "ModuleName" : "Kyber_Client",
       "SubInsts" : [
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
         "InstLine" : 514,
         "InstName" : "IFIFO",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_2.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_2.v",
         "ModuleLine" : 1,
         "ModuleName" : "fifo_generator_2"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
         "InstLine" : 515,
         "InstName" : "OFIFO",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_3.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_3.v",
         "ModuleLine" : 1,
         "ModuleName" : "fifo_generator_3"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
         "InstLine" : 516,
         "InstName" : "DFIFO",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_6.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_6.v",
         "ModuleLine" : 1,
         "ModuleName" : "fifo_generator_6"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
         "InstLine" : 459,
         "InstName" : "ntt",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
         "ModuleLine" : 2,
         "ModuleName" : "NTT_core_Client",
         "SubInsts" : [
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 511,
           "InstName" : "S4",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_3.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_3.v",
           "ModuleLine" : 1,
           "ModuleName" : "c_shift_ram_3"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 512,
           "InstName" : "S5",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
           "ModuleLine" : 1,
           "ModuleName" : "c_shift_ram_4"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 513,
           "InstName" : "S6",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_4.v",
           "ModuleLine" : 1,
           "ModuleName" : "c_shift_ram_4"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 514,
           "InstName" : "S7",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_5.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_5.v",
           "ModuleLine" : 1,
           "ModuleName" : "c_shift_ram_5"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 515,
           "InstName" : "S9",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_6.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_6.v",
           "ModuleLine" : 1,
           "ModuleName" : "c_shift_ram_6"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 516,
           "InstName" : "S10",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_8.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_8.v",
           "ModuleLine" : 1,
           "ModuleName" : "c_shift_ram_8"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 517,
           "InstName" : "S11",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_11.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_11.v",
           "ModuleLine" : 1,
           "ModuleName" : "c_shift_ram_11"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 480,
           "InstName" : "BU",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
           "ModuleLine" : 2,
           "ModuleName" : "butterfly_Cli",
           "SubInsts" : [
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
             "InstLine" : 186,
             "InstName" : "S0",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
             "ModuleLine" : 1,
             "ModuleName" : "c_shift_ram_0"
            },
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
             "InstLine" : 187,
             "InstName" : "S1",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_0.v",
             "ModuleLine" : 1,
             "ModuleName" : "c_shift_ram_0"
            },
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
             "InstLine" : 188,
             "InstName" : "S2",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
             "ModuleLine" : 1,
             "ModuleName" : "c_shift_ram_1"
            },
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
             "InstLine" : 189,
             "InstName" : "S3",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RAM_based_shift_reg_top/c_shift_ram_1.v",
             "ModuleLine" : 1,
             "ModuleName" : "c_shift_ram_1"
            },
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
             "InstLine" : 180,
             "InstName" : "M0",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_mult/mult_gen_0.v",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_mult/mult_gen_0.v",
             "ModuleLine" : 9,
             "ModuleName" : "mult_gen_0"
            },
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
             "InstLine" : 181,
             "InstName" : "M1",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_mult/mult_gen_0.v",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_mult/mult_gen_0.v",
             "ModuleLine" : 9,
             "ModuleName" : "mult_gen_0"
            },
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
             "InstLine" : 183,
             "InstName" : "R0",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/reduc.v",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/reduc.v",
             "ModuleLine" : 2,
             "ModuleName" : "reduc"
            },
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/butterfly_Client.v",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/butterfly_Client.v",
             "InstLine" : 184,
             "InstName" : "R1",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/reduc.v",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/reduc.v",
             "ModuleLine" : 2,
             "ModuleName" : "reduc"
            }
           ]
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 482,
           "InstName" : "ROM0",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_5.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_5.v",
           "ModuleLine" : 9,
           "ModuleName" : "dist_mem_gen_5"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 483,
           "InstName" : "ROM1",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_6.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_6.v",
           "ModuleLine" : 9,
           "ModuleName" : "dist_mem_gen_6"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 484,
           "InstName" : "ROM2",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_prom/dist_mem_gen_7.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_prom/dist_mem_gen_7.v",
           "ModuleLine" : 9,
           "ModuleName" : "dist_mem_gen_7"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 486,
           "InstName" : "RAM0",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
           "ModuleLine" : 9,
           "ModuleName" : "blk_mem_gen_0"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 487,
           "InstName" : "RAM1",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_0.v",
           "ModuleLine" : 9,
           "ModuleName" : "blk_mem_gen_0"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 488,
           "InstName" : "RAM2",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
           "ModuleLine" : 9,
           "ModuleName" : "blk_mem_gen_2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 489,
           "InstName" : "RAM3",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_2.v",
           "ModuleLine" : 9,
           "ModuleName" : "blk_mem_gen_2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 490,
           "InstName" : "RAM4",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/gowin_sdpb/blk_mem_gen_1.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/gowin_sdpb/blk_mem_gen_1.v",
           "ModuleLine" : 9,
           "ModuleName" : "blk_mem_gen_1"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 492,
           "InstName" : "m00",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 493,
           "InstName" : "m01",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 494,
           "InstName" : "m02",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 495,
           "InstName" : "m10",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 496,
           "InstName" : "m11",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 497,
           "InstName" : "m12",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 498,
           "InstName" : "m20",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 499,
           "InstName" : "m21",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 500,
           "InstName" : "m22",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 501,
           "InstName" : "m30",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 502,
           "InstName" : "m31",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/NTT_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/NTT_core_Client.v",
           "InstLine" : 503,
           "InstName" : "m32",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/mux4to2.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/mux4to2.v",
           "ModuleLine" : 1,
           "ModuleName" : "mux4to2"
          }
         ]
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
         "InstLine" : 479,
         "InstName" : "hash",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Client.v",
         "ModuleLine" : 1,
         "ModuleName" : "hash_core_Client",
         "SubInsts" : [
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Client.v",
           "InstLine" : 193,
           "InstName" : "fifo0",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_0.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_0.v",
           "ModuleLine" : 1,
           "ModuleName" : "fifo_generator_0"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Client.v",
           "InstLine" : 194,
           "InstName" : "fifo1",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_1.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_1.v",
           "ModuleLine" : 1,
           "ModuleName" : "fifo_generator_1"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Client.v",
           "InstLine" : 195,
           "InstName" : "fifo2",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_7.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_7.v",
           "ModuleLine" : 1,
           "ModuleName" : "fifo_generator_7"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Client.v",
           "InstLine" : 196,
           "InstName" : "fifo8",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/fifo_sc_hs/fifo_generator_8.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/fifo_sc_hs/fifo_generator_8.v",
           "ModuleLine" : 1,
           "ModuleName" : "fifo_generator_8"
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Client.v",
           "InstLine" : 192,
           "InstName" : "hash",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Keccak1600.vhd",
           "ModuleLine" : 19,
           "ModuleName" : "Keccak1600",
           "SubInsts" : [
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Keccak1600.vhd",
             "InstLine" : 85,
             "InstName" : "RoundFunction",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
             "ModuleLine" : 19,
             "ModuleName" : "Round",
             "SubInsts" : [
              {
-              "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+              "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
               "InstLine" : 89,
               "InstName" : "Reg",
-              "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/RegisterFDRE.vhd",
+              "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/RegisterFDRE.vhd",
               "ModuleLine" : 18,
               "ModuleName" : "RegisterFDRE"
              },
              {
-              "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+              "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
               "InstLine" : 112,
               "InstName" : "T",
-              "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/theta.vhd",
+              "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/theta.vhd",
               "ModuleLine" : 19,
               "ModuleName" : "theta"
              },
              {
-              "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+              "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
               "InstLine" : 113,
               "InstName" : "R",
-              "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/rho.vhd",
+              "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/rho.vhd",
               "ModuleLine" : 19,
               "ModuleName" : "rho"
              },
              {
-              "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+              "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
               "InstLine" : 114,
               "InstName" : "P",
-              "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pi.vhd",
+              "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pi.vhd",
               "ModuleLine" : 19,
               "ModuleName" : "pi"
              },
              {
-              "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+              "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
               "InstLine" : 115,
               "InstName" : "C",
-              "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/chi.vhd",
+              "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/chi.vhd",
               "ModuleLine" : 19,
               "ModuleName" : "chi"
              },
              {
-              "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Round.vhd",
+              "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Round.vhd",
               "InstLine" : 116,
               "InstName" : "I",
-              "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/iota.vhd",
+              "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/iota.vhd",
               "ModuleLine" : 19,
               "ModuleName" : "iota"
              }
             ]
            },
            {
-            "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/Keccak1600.vhd",
+            "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/Keccak1600.vhd",
             "InstLine" : 102,
             "InstName" : "FSM",
-            "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/StateMachine.vhd",
+            "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/StateMachine.vhd",
             "ModuleLine" : 19,
             "ModuleName" : "StateMachine"
            }
           ]
          },
          {
-          "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/hash_core_Client.v",
+          "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/hash_core_Client.v",
           "InstLine" : 197,
           "InstName" : "decode",
-          "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/decode_keccak.v",
+          "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/decode_keccak.v",
           "ModuleLine" : 3,
           "ModuleName" : "decode_keccak"
          }
         ]
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
         "InstLine" : 510,
         "InstName" : "decode",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/decode_Client.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/decode_Client.v",
         "ModuleLine" : 2,
         "ModuleName" : "decode_Client"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
         "InstLine" : 511,
         "InstName" : "encode",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/encode_Client.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/encode_Client.v",
         "ModuleLine" : 2,
         "ModuleName" : "encode_Client"
        },
        {
-        "InstFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/keyber_client.v",
+        "InstFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/keyber_client.v",
         "InstLine" : 512,
         "InstName" : "pattern",
-        "ModuleFile" : "C:/Users/lenovo/Desktop/2022FPGA-SOC/kyber_gowin/src/pattern.v",
+        "ModuleFile" : "C:/Users/86183/Desktop/fpga/2022-FPGA-Contest/kyber_gowin/src/pattern.v",
         "ModuleLine" : 1,
         "ModuleName" : "pattern"
        }

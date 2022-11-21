@@ -1,26 +1,31 @@
 `timescale 1ns / 1ps
 module Kyber_Client(
-	input clk, rst, start,
+	input clk, rst,
+    input [1:0] start
 	input wen,
 	input [2:0] k,
 	input ready_pk,
 	input req_c,
 	input [31:0] din,
-	input [31:0] m_in,
-	input        m_ready,
+	//input [31:0] m_in,
+	//input        m_ready,
 	// output ofifo_req_t,
 	// output [31:0] ofifo_dout_t,
 	output ready_c,
 	output req_pk,
 	output reg valid,
-	output reg [31:0] dout
+	output reg [31:0] dout,
+    output reg [31:0] real_dout
+
 );
 
 // assign ofifo_req_t = ofifo1_req;
 // assign ofifo_dout_t = ofifo1_dout;
 
+
+
 reg [255:0] rho, r, hash_pk, hash_c, K;
-reg [255:0] m;
+//reg [255:0] m;
 wire ena_sft;
 wire mdat_in;
 
@@ -167,14 +172,18 @@ always @(posedge clk) case(state)
 	default : r <= r;
 endcase
 
-assign mdat_in = m_ready ? m_in : mdat_in;
+//assign mdat_in = m_ready ? m_in : mdat_in;
+
+always @(*) begin
+    real_dout= 
+end
 
 always @(posedge clk) begin
 	if(ena_sft)
 		m <= {m[1:0],m[255:2]};
 	else case(state)
-	    6'h1 : m <= mdat_in;
-		//6'h 1 : m <= 256'h 157699F676FE09CC74A8A9A379FE0EC8137F4D87E1FAC806A4BBBEA5F7037C14;	// count = 0
+	    //6'h1 : m <= mdat_in;
+		6'h 1 : m <= 256'h 157699F676FE09CC74A8A9A379FE0EC8137F4D87E1FAC806A4BBBEA5F7037C14;	// count = 0
 		// 6'h 1 : m <= 256'h 4620D7DDDB2A8240129390744CB82AEB013E841158D1C5F63172E68CDF97E7CD;	// count = 1
 		// 6'h 1 : m <= 256'h E996FFD02E4E36039BEB07DF9F48769873D4EC10712907D3A6F094D6FB683FF4;	// count = 2
 		// 6'h 1 : m <= 256'h 855EC9A8E942B9693922AFDFD6D2863B6D493CFED6BE84D60E5046C5C3FB74EA;	// count = 3

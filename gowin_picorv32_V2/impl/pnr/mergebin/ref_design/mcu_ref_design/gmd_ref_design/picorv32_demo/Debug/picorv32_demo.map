@@ -1,0 +1,1332 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(save-restore.o)
+                              ./src/lib/printf.o (__riscv_save_10)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/firmware.o
+ .text          0x0000000000000000        0x0 ./src/lib/firmware.o
+ .data          0x0000000000000000        0x0 ./src/lib/firmware.o
+ .bss           0x0000000000000000        0x0 ./src/lib/firmware.o
+ .text.memset_32
+                0x0000000000000000       0x4a ./src/lib/firmware.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/lib/printf.o
+ .text          0x0000000000000000        0x0 ./src/lib/printf.o
+ .data          0x0000000000000000        0x0 ./src/lib/printf.o
+ .bss           0x0000000000000000        0x0 ./src/lib/printf.o
+ .text.sprintf  0x0000000000000000       0x26 ./src/lib/printf.o
+ .text.snprintf
+                0x0000000000000000       0x26 ./src/lib/printf.o
+ .text.write    0x0000000000000000        0x4 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000      0x74e ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x22 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x8e ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x51 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0xef ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x6a ./src/lib/printf.o
+ .debug_macro   0x0000000000000000      0x1df ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x58 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x19 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x34 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x34 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x16 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x97 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000      0x330 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0xfd ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x58 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x1f ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x43 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x20 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000      0x18e ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x10 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x1c ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x52 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x40 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x10 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x40 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x1c ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x3d ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x16 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000      0x16f ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x22 ./src/lib/printf.o
+ .debug_macro   0x0000000000000000       0x9b ./src/lib/printf.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/simpleuart.o
+ .text          0x0000000000000000        0x0 ./src/bsp/simpleuart.o
+ .data          0x0000000000000000        0x0 ./src/bsp/simpleuart.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/simpleuart.o
+ .text.uart_init
+                0x0000000000000000       0x28 ./src/bsp/simpleuart.o
+ .text.outbyte  0x0000000000000000       0x38 ./src/bsp/simpleuart.o
+ .text.uart_putchar
+                0x0000000000000000       0x1e ./src/bsp/simpleuart.o
+ .text.getchar_prompt
+                0x0000000000000000       0x6e ./src/bsp/simpleuart.o
+ .text.uart_getchar
+                0x0000000000000000       0x1e ./src/bsp/simpleuart.o
+ .debug_info    0x0000000000000000      0xa7f ./src/bsp/simpleuart.o
+ .debug_abbrev  0x0000000000000000      0x27c ./src/bsp/simpleuart.o
+ .debug_aranges
+                0x0000000000000000       0x40 ./src/bsp/simpleuart.o
+ .debug_ranges  0x0000000000000000       0x30 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000      0x1d6 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000      0x74e ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0xef ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x19 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000      0x330 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0xfd ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x1f ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x43 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000      0x18e ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x52 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x3d ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000      0x16f ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/simpleuart.o
+ .debug_macro   0x0000000000000000       0x9b ./src/bsp/simpleuart.o
+ .debug_line    0x0000000000000000      0x441 ./src/bsp/simpleuart.o
+ .debug_str     0x0000000000000000     0x78bd ./src/bsp/simpleuart.o
+ .comment       0x0000000000000000       0x3a ./src/bsp/simpleuart.o
+ .debug_frame   0x0000000000000000       0xb8 ./src/bsp/simpleuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbgpio.o
+ .text          0x0000000000000000        0x0 ./src/bsp/wbgpio.o
+ .data          0x0000000000000000        0x0 ./src/bsp/wbgpio.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/wbgpio.o
+ .text.GPIO_GetDir
+                0x0000000000000000       0x18 ./src/bsp/wbgpio.o
+ .text.GPIO_EnableWriteBit
+                0x0000000000000000       0x3e ./src/bsp/wbgpio.o
+ .text.GPIO_EnableReadBit
+                0x0000000000000000       0x42 ./src/bsp/wbgpio.o
+ .text.GPIO_ReadData
+                0x0000000000000000       0x18 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000      0x74e ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0xef ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x19 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000      0x330 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0xfd ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x1f ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x43 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000      0x18e ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x52 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x3d ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000      0x16f ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000000000       0x9b ./src/bsp/wbgpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbi2c.o
+ .text          0x0000000000000000        0x0 ./src/bsp/wbi2c.o
+ .data          0x0000000000000000        0x0 ./src/bsp/wbi2c.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/wbi2c.o
+ .text.Delay_ms_i2c
+                0x0000000000000000       0x36 ./src/bsp/wbi2c.o
+ .text.I2C_Disable
+                0x0000000000000000       0x1c ./src/bsp/wbi2c.o
+ .text.I2C_Enable
+                0x0000000000000000       0x22 ./src/bsp/wbi2c.o
+ .text.I2C_Rate_Set
+                0x0000000000000000       0x4e ./src/bsp/wbi2c.o
+ .text.I2C_Init
+                0x0000000000000000       0x60 ./src/bsp/wbi2c.o
+ .text.I2C_SendByte
+                0x0000000000000000       0xd4 ./src/bsp/wbi2c.o
+ .text.I2C_ReceiveByte
+                0x0000000000000000       0xea ./src/bsp/wbi2c.o
+ .text.I2C_SendWord
+                0x0000000000000000      0x14a ./src/bsp/wbi2c.o
+ .text.I2C_ReceiveWord
+                0x0000000000000000      0x166 ./src/bsp/wbi2c.o
+ .text.I2C_SendArray
+                0x0000000000000000      0x146 ./src/bsp/wbi2c.o
+ .text.I2C_ReceiveArray
+                0x0000000000000000      0x152 ./src/bsp/wbi2c.o
+ .text.I2C_SendBytes
+                0x0000000000000000       0x7a ./src/bsp/wbi2c.o
+ .text.I2C_ReadBytes
+                0x0000000000000000       0x82 ./src/bsp/wbi2c.o
+ .text.I2C_InterruptOpen
+                0x0000000000000000       0x1c ./src/bsp/wbi2c.o
+ .text.I2C_InterruptClose
+                0x0000000000000000       0x22 ./src/bsp/wbi2c.o
+ .debug_info    0x0000000000000000      0xf27 ./src/bsp/wbi2c.o
+ .debug_abbrev  0x0000000000000000      0x2f9 ./src/bsp/wbi2c.o
+ .debug_aranges
+                0x0000000000000000       0x90 ./src/bsp/wbi2c.o
+ .debug_ranges  0x0000000000000000       0x80 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000      0x1db ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000      0x74e ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0xef ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x19 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000      0x330 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0xfd ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x1f ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x43 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000      0x18e ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x52 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x3d ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000      0x16f ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x9b ./src/bsp/wbi2c.o
+ .debug_macro   0x0000000000000000       0x5e ./src/bsp/wbi2c.o
+ .debug_line    0x0000000000000000     0x1218 ./src/bsp/wbi2c.o
+ .debug_str     0x0000000000000000     0x7c24 ./src/bsp/wbi2c.o
+ .comment       0x0000000000000000       0x3a ./src/bsp/wbi2c.o
+ .debug_frame   0x0000000000000000      0x23c ./src/bsp/wbi2c.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspi.o
+ .text          0x0000000000000000        0x0 ./src/bsp/wbspi.o
+ .data          0x0000000000000000        0x0 ./src/bsp/wbspi.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/wbspi.o
+ .text.wbspi_master_select_slave
+                0x0000000000000000       0x36 ./src/bsp/wbspi.o
+ .text.wbspi_enable_interrupt
+                0x0000000000000000       0x2e ./src/bsp/wbspi.o
+ .text.wbspi_disable_interrupt
+                0x0000000000000000       0x32 ./src/bsp/wbspi.o
+ .text.wbspi_master_txdata
+                0x0000000000000000       0x4a ./src/bsp/wbspi.o
+ .text.wbspi_master_rxdata
+                0x0000000000000000       0x48 ./src/bsp/wbspi.o
+ .text.wbspi_slave_prepare_txdata
+                0x0000000000000000       0x2e ./src/bsp/wbspi.o
+ .text.wbspi_slave_read_data
+                0x0000000000000000       0x2e ./src/bsp/wbspi.o
+ .debug_info    0x0000000000000000      0xb3a ./src/bsp/wbspi.o
+ .debug_abbrev  0x0000000000000000      0x224 ./src/bsp/wbspi.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./src/bsp/wbspi.o
+ .debug_ranges  0x0000000000000000       0x40 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000      0x1db ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000      0x74e ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0xef ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x19 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000      0x330 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0xfd ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x1f ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x43 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000      0x18e ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x52 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x3d ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000      0x16f ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x9b ./src/bsp/wbspi.o
+ .debug_macro   0x0000000000000000       0x52 ./src/bsp/wbspi.o
+ .debug_line    0x0000000000000000      0x56c ./src/bsp/wbspi.o
+ .debug_str     0x0000000000000000     0x79f1 ./src/bsp/wbspi.o
+ .comment       0x0000000000000000       0x3a ./src/bsp/wbspi.o
+ .debug_frame   0x0000000000000000       0xf0 ./src/bsp/wbspi.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbspiflash.o
+ .text          0x0000000000000000        0x0 ./src/bsp/wbspiflash.o
+ .data          0x0000000000000000        0x0 ./src/bsp/wbspiflash.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/wbspiflash.o
+ .text.SPI_reset
+                0x0000000000000000       0x2a ./src/bsp/wbspiflash.o
+ .text.SPI_set_mode
+                0x0000000000000000       0x30 ./src/bsp/wbspiflash.o
+ .text.SPI_set_addr_format
+                0x0000000000000000       0x74 ./src/bsp/wbspiflash.o
+ .text.SPI_set_cmd_format
+                0x0000000000000000       0x42 ./src/bsp/wbspiflash.o
+ .text.SPI_set_data_format
+                0x0000000000000000       0x7e ./src/bsp/wbspiflash.o
+ .text.SPI_set_transfer_format
+                0x0000000000000000       0x5c ./src/bsp/wbspiflash.o
+ .text.SPI_set_trans_ctrl
+                0x0000000000000000       0x76 ./src/bsp/wbspiflash.o
+ .text.SPI_set_token
+                0x0000000000000000       0x5c ./src/bsp/wbspiflash.o
+ .text.SPI_tx_fifo_reset
+                0x0000000000000000       0x2a ./src/bsp/wbspiflash.o
+ .text.SPI_rx_fifo_reset
+                0x0000000000000000       0x2a ./src/bsp/wbspiflash.o
+ .rodata.SPI_set_tx_threshold.str1.4
+                0x0000000000000000       0x44 ./src/bsp/wbspiflash.o
+ .text.SPI_set_tx_threshold
+                0x0000000000000000       0x8e ./src/bsp/wbspiflash.o
+ .rodata.SPI_set_rx_threshold.str1.4
+                0x0000000000000000       0x3c ./src/bsp/wbspiflash.o
+ .text.SPI_set_rx_threshold
+                0x0000000000000000       0x8c ./src/bsp/wbspiflash.o
+ .text.spi_flash_write
+                0x0000000000000000       0x88 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000      0x74e ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0xef ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x19 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000      0x330 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0xfd ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x1f ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x43 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000      0x18e ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x52 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x3d ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000      0x16f ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbspiflash.o
+ .debug_macro   0x0000000000000000       0x9b ./src/bsp/wbspiflash.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .group         0x0000000000000000        0xc ./src/bsp/wbuart.o
+ .text          0x0000000000000000        0x0 ./src/bsp/wbuart.o
+ .data          0x0000000000000000        0x0 ./src/bsp/wbuart.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000      0x74e ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0xef ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x19 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000      0x330 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0xfd ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x1f ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x43 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000      0x18e ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x52 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x40 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x1c ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x3d ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000      0x16f ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/wbuart.o
+ .debug_macro   0x0000000000000000       0x9b ./src/bsp/wbuart.o
+ .text          0x0000000000000000        0x0 ./src/custom_ops.o
+ .data          0x0000000000000000        0x0 ./src/custom_ops.o
+ .bss           0x0000000000000000        0x0 ./src/custom_ops.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/irq.o
+ .text          0x0000000000000000        0x0 ./src/irq.o
+ .data          0x0000000000000000        0x0 ./src/irq.o
+ .bss           0x0000000000000000        0x0 ./src/irq.o
+ .sbss.tmp      0x0000000000000000        0x4 ./src/irq.o
+ .sbss.val      0x0000000000000000        0x4 ./src/irq.o
+ .text.disable_external_interrupt
+                0x0000000000000000       0x22 ./src/irq.o
+ .text.disable_timer_interrupt
+                0x0000000000000000       0x1e ./src/irq.o
+ .text.disable_interrupt_global
+                0x0000000000000000       0x12 ./src/irq.o
+ .debug_macro   0x0000000000000000      0x74e ./src/irq.o
+ .debug_macro   0x0000000000000000       0x22 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x19 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x34 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x34 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x16 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x97 ./src/irq.o
+ .debug_macro   0x0000000000000000      0x330 ./src/irq.o
+ .debug_macro   0x0000000000000000       0xfd ./src/irq.o
+ .debug_macro   0x0000000000000000       0x10 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x58 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x1f ./src/irq.o
+ .debug_macro   0x0000000000000000       0x43 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x20 ./src/irq.o
+ .debug_macro   0x0000000000000000      0x18e ./src/irq.o
+ .debug_macro   0x0000000000000000       0x10 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x6a ./src/irq.o
+ .debug_macro   0x0000000000000000       0x1c ./src/irq.o
+ .debug_macro   0x0000000000000000       0x52 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x40 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x10 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x40 ./src/irq.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x1c ./src/irq.o
+ .debug_macro   0x0000000000000000       0x3d ./src/irq.o
+ .debug_macro   0x0000000000000000       0x16 ./src/irq.o
+ .debug_macro   0x0000000000000000      0x16f ./src/irq.o
+ .debug_macro   0x0000000000000000       0x22 ./src/irq.o
+ .debug_macro   0x0000000000000000       0xef ./src/irq.o
+ .debug_macro   0x0000000000000000      0x1df ./src/irq.o
+ .debug_macro   0x0000000000000000       0x22 ./src/irq.o
+ .debug_macro   0x0000000000000000       0x9b ./src/irq.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/loader.o
+ .text          0x0000000000000000        0x0 ./src/loader.o
+ .data          0x0000000000000000        0x0 ./src/loader.o
+ .bss           0x0000000000000000        0x0 ./src/loader.o
+ .debug_info    0x0000000000000000      0x91d ./src/loader.o
+ .debug_abbrev  0x0000000000000000      0x1a1 ./src/loader.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./src/loader.o
+ .debug_macro   0x0000000000000000      0x1d5 ./src/loader.o
+ .debug_macro   0x0000000000000000      0x74e ./src/loader.o
+ .debug_macro   0x0000000000000000       0x22 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x22 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x8e ./src/loader.o
+ .debug_macro   0x0000000000000000       0x51 ./src/loader.o
+ .debug_macro   0x0000000000000000       0xef ./src/loader.o
+ .debug_macro   0x0000000000000000       0x6a ./src/loader.o
+ .debug_macro   0x0000000000000000      0x1df ./src/loader.o
+ .debug_macro   0x0000000000000000       0x58 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x19 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x34 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x34 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x16 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x97 ./src/loader.o
+ .debug_macro   0x0000000000000000      0x330 ./src/loader.o
+ .debug_macro   0x0000000000000000       0xfd ./src/loader.o
+ .debug_macro   0x0000000000000000       0x10 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x58 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x1f ./src/loader.o
+ .debug_macro   0x0000000000000000       0x43 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x20 ./src/loader.o
+ .debug_macro   0x0000000000000000      0x18e ./src/loader.o
+ .debug_macro   0x0000000000000000       0x10 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x1c ./src/loader.o
+ .debug_macro   0x0000000000000000       0x52 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x40 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x10 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x40 ./src/loader.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x1c ./src/loader.o
+ .debug_macro   0x0000000000000000       0x3d ./src/loader.o
+ .debug_macro   0x0000000000000000       0x16 ./src/loader.o
+ .debug_macro   0x0000000000000000      0x16f ./src/loader.o
+ .debug_macro   0x0000000000000000       0x22 ./src/loader.o
+ .debug_macro   0x0000000000000000       0x9b ./src/loader.o
+ .debug_line    0x0000000000000000      0x2e0 ./src/loader.o
+ .debug_str     0x0000000000000000     0x7836 ./src/loader.o
+ .comment       0x0000000000000000       0x3a ./src/loader.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .debug_macro   0x0000000000000000      0x74e ./src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./src/main.o
+ .debug_macro   0x0000000000000000       0x8e ./src/main.o
+ .debug_macro   0x0000000000000000       0x51 ./src/main.o
+ .debug_macro   0x0000000000000000       0xef ./src/main.o
+ .debug_macro   0x0000000000000000       0x6a ./src/main.o
+ .debug_macro   0x0000000000000000      0x1df ./src/main.o
+ .debug_macro   0x0000000000000000       0x58 ./src/main.o
+ .debug_macro   0x0000000000000000       0x19 ./src/main.o
+ .debug_macro   0x0000000000000000       0x34 ./src/main.o
+ .debug_macro   0x0000000000000000       0x34 ./src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/main.o
+ .debug_macro   0x0000000000000000       0x97 ./src/main.o
+ .debug_macro   0x0000000000000000      0x330 ./src/main.o
+ .debug_macro   0x0000000000000000       0xfd ./src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./src/main.o
+ .debug_macro   0x0000000000000000       0x58 ./src/main.o
+ .debug_macro   0x0000000000000000       0x1f ./src/main.o
+ .debug_macro   0x0000000000000000       0x43 ./src/main.o
+ .debug_macro   0x0000000000000000       0x20 ./src/main.o
+ .debug_macro   0x0000000000000000      0x18e ./src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./src/main.o
+ .debug_macro   0x0000000000000000       0x52 ./src/main.o
+ .debug_macro   0x0000000000000000       0x40 ./src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./src/main.o
+ .debug_macro   0x0000000000000000       0x40 ./src/main.o
+ .debug_macro   0x0000000000000000       0xd7 ./src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./src/main.o
+ .debug_macro   0x0000000000000000       0x3d ./src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/main.o
+ .debug_macro   0x0000000000000000      0x16f ./src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./src/main.o
+ .debug_macro   0x0000000000000000       0x9b ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/start.o
+ .bss           0x0000000000000000        0x0 ./src/start.o
+ .data          0x0000000000000000        0x0 c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(save-restore.o)
+ .bss           0x0000000000000000        0x0 c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(save-restore.o)
+ .eh_frame      0x0000000000000000       0xf8 c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(save-restore.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000001000000 0x0000000000008000 axw !rl
+SMEM             0x0000000002000000 0x0000000000008000 axrl !w
+FLASH            0x0000000010400000 0x0000000000100000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/lib/firmware.o
+LOAD ./src/lib/printf.o
+LOAD ./src/bsp/simpleuart.o
+LOAD ./src/bsp/wbgpio.o
+LOAD ./src/bsp/wbi2c.o
+LOAD ./src/bsp/wbspi.o
+LOAD ./src/bsp/wbspiflash.o
+LOAD ./src/bsp/wbuart.o
+LOAD ./src/custom_ops.o
+LOAD ./src/irq.o
+LOAD ./src/loader.o
+LOAD ./src/main.o
+LOAD ./src/start.o
+LOAD c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a
+LOAD c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libg_nano.a
+LOAD c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc_nano.a
+LOAD c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a
+LOAD c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc_nano.a
+END GROUP
+                0x0000000000000000                _lma_btsec_start = 0x0
+
+.btsec          0x0000000010400000        0x0 load address 0x0000000000000000
+                0x0000000010400000                _vsbtsec = .
+ *.o(.btsec)
+                0x0000000010400000                . = ALIGN (0x4)
+                0x0000000000000000                _lma_btsec_end = (_lma_btsec_start + SIZEOF (.btsec))
+                0x0000000000000000                _lma_text_start = _lma_btsec_end
+                0x0000000010400000                _cp_text_start = (_vsbtsec + _lma_text_start)
+
+.text           0x0000000002000000     0x1c5c load address 0x0000000000000000
+                0x0000000002000000                _vstext = .
+                0x0000000002000000                . = ALIGN (0x4)
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ *(.text)
+ .text          0x0000000002000000      0x230 ./src/start.o
+                0x0000000002000150                start
+ .text          0x0000000002000230       0xbc c:/gmd/toolchain/risc-v_toolchain/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(save-restore.o)
+                0x0000000002000230                __riscv_save_12
+                0x0000000002000240                __riscv_save_9
+                0x0000000002000240                __riscv_save_11
+                0x0000000002000240                __riscv_save_10
+                0x0000000002000240                __riscv_save_8
+                0x000000000200025c                __riscv_save_4
+                0x000000000200025c                __riscv_save_6
+                0x000000000200025c                __riscv_save_5
+                0x000000000200025c                __riscv_save_7
+                0x000000000200028c                __riscv_save_3
+                0x000000000200028c                __riscv_save_2
+                0x000000000200028c                __riscv_save_1
+                0x000000000200028c                __riscv_save_0
+                0x00000000020002a4                __riscv_restore_12
+                0x00000000020002ac                __riscv_restore_11
+                0x00000000020002ac                __riscv_restore_9
+                0x00000000020002ac                __riscv_restore_10
+                0x00000000020002ac                __riscv_restore_8
+                0x00000000020002c0                __riscv_restore_5
+                0x00000000020002c0                __riscv_restore_7
+                0x00000000020002c0                __riscv_restore_6
+                0x00000000020002c0                __riscv_restore_4
+                0x00000000020002d4                __riscv_restore_3
+                0x00000000020002d4                __riscv_restore_0
+                0x00000000020002d4                __riscv_restore_2
+                0x00000000020002d4                __riscv_restore_1
+ *(.text*)
+ .text.stats_print_dec
+                0x00000000020002ec       0xf6 ./src/lib/firmware.o
+ .text.stats    0x00000000020003e2       0xbc ./src/lib/firmware.o
+                0x00000000020003e2                stats
+ .text.delay    0x000000000200049e       0x46 ./src/lib/firmware.o
+                0x000000000200049e                delay
+ .text.printchar
+                0x00000000020004e4       0x1a ./src/lib/printf.o
+ .text.prints   0x00000000020004fe       0x8c ./src/lib/printf.o
+ .text.printi   0x000000000200058a       0x9e ./src/lib/printf.o
+ .text.print    0x0000000002000628      0x13a ./src/lib/printf.o
+ .text.printf   0x0000000002000762       0x22 ./src/lib/printf.o
+                0x0000000002000762                printf
+ .text.GPIO_Init
+                0x0000000002000784       0x3a ./src/bsp/wbgpio.o
+                0x0000000002000784                GPIO_Init
+ .text.GPIO_SetDir
+                0x00000000020007be       0x20 ./src/bsp/wbgpio.o
+                0x00000000020007be                GPIO_SetDir
+ .text.GPIO_WriteData
+                0x00000000020007de       0x20 ./src/bsp/wbgpio.o
+                0x00000000020007de                GPIO_WriteData
+ .text.spi_get_fifo_depth
+                0x00000000020007fe       0x14 ./src/bsp/wbspiflash.o
+                0x00000000020007fe                spi_get_fifo_depth
+ .text.spi_flash_init
+                0x0000000002000812       0x98 ./src/bsp/wbspiflash.o
+                0x0000000002000812                spi_flash_init
+ .text.spi_flash_read
+                0x00000000020008aa       0x42 ./src/bsp/wbspiflash.o
+                0x00000000020008aa                spi_flash_read
+ .text.change_mode_spi_flash
+                0x00000000020008ec       0x16 ./src/bsp/wbspiflash.o
+                0x00000000020008ec                change_mode_spi_flash
+ .text.spi_flash_write_cmd
+                0x0000000002000902       0x44 ./src/bsp/wbspiflash.o
+                0x0000000002000902                spi_flash_write_cmd
+ .text.spi_flash_page_program
+                0x0000000002000946       0x64 ./src/bsp/wbspiflash.o
+                0x0000000002000946                spi_flash_page_program
+ .text.spi_flash_sector_erase
+                0x00000000020009aa       0x74 ./src/bsp/wbspiflash.o
+                0x00000000020009aa                spi_flash_sector_erase
+ .text.spi_flash_read_status
+                0x0000000002000a1e       0x24 ./src/bsp/wbspiflash.o
+                0x0000000002000a1e                spi_flash_read_status
+ .text.wbuart_init
+                0x0000000002000a42       0x34 ./src/bsp/wbuart.o
+                0x0000000002000a42                wbuart_init
+ .text.wbuart_putc
+                0x0000000002000a76       0x46 ./src/bsp/wbuart.o
+                0x0000000002000a76                wbuart_putc
+ .text.wbuart_getc
+                0x0000000002000abc       0x2e ./src/bsp/wbuart.o
+                0x0000000002000abc                wbuart_getc
+ .text.wbuart_outbyte
+                0x0000000002000aea       0x2e ./src/bsp/wbuart.o
+                0x0000000002000aea                wbuart_outbyte
+ .text.irq      0x0000000002000b18      0x162 ./src/irq.o
+                0x0000000002000b18                irq
+ .text.return_from_irq
+                0x0000000002000c7a        0xe ./src/irq.o
+                0x0000000002000c7a                return_from_irq
+ .text.mask_irq
+                0x0000000002000c88       0x24 ./src/irq.o
+                0x0000000002000c88                mask_irq
+ .text.irq_enable_one_bit
+                0x0000000002000cac       0x42 ./src/irq.o
+                0x0000000002000cac                irq_enable_one_bit
+ .text.irq_disable_one_bit
+                0x0000000002000cee       0x3e ./src/irq.o
+                0x0000000002000cee                irq_disable_one_bit
+ .text.enable_external_interrupt
+                0x0000000002000d2c       0x22 ./src/irq.o
+                0x0000000002000d2c                enable_external_interrupt
+ .text.enable_timer_interrupt
+                0x0000000002000d4e       0x1e ./src/irq.o
+                0x0000000002000d4e                enable_timer_interrupt
+ .text.enable_interrupt_global
+                0x0000000002000d6c       0x12 ./src/irq.o
+                0x0000000002000d6c                enable_interrupt_global
+ .text.set_timer
+                0x0000000002000d7e       0x26 ./src/irq.o
+                0x0000000002000d7e                set_timer
+ .text.main     0x0000000002000da4      0x20c ./src/main.o
+                0x0000000002000da4                main
+ .text.spi_flash_demo
+                0x0000000002000fb0      0x2aa ./src/main.o
+                0x0000000002000fb0                spi_flash_demo
+ .text.gpio_out_demo
+                0x000000000200125a       0xee ./src/main.o
+                0x000000000200125a                gpio_out_demo
+ .text.wbreg_demo
+                0x0000000002001348      0x15a ./src/main.o
+                0x0000000002001348                wbreg_demo
+ .text.ahbreg_demo
+                0x00000000020014a2       0x9a ./src/main.o
+                0x00000000020014a2                ahbreg_demo
+ .text.uart_rx_demo
+                0x000000000200153c       0x60 ./src/main.o
+                0x000000000200153c                uart_rx_demo
+ *(.rodata)
+ .rodata        0x000000000200159c       0xb8 ./src/lib/firmware.o
+ .rodata        0x0000000002001654       0x34 ./src/irq.o
+ .rodata        0x0000000002001688      0x5ca ./src/main.o
+ *(.rodata*)
+ *fill*         0x0000000002001c52        0x2 
+ .rodata.print.str1.4
+                0x0000000002001c54        0x8 ./src/lib/printf.o
+                                          0x7 (size before relaxing)
+ *(.srodata)
+ *(.srodata*)
+                0x0000000002001c5c                . = ALIGN (0x4)
+                0x0000000002001c5c                _etext = .
+                0x0000000000001c5c                _lma_text_end = (_lma_text_start + SIZEOF (.text))
+                0x0000000010401c5c                _cp_text_end = (_vsbtsec + _lma_text_end)
+                0x0000000000001c5c                _lma_ldsec_start = _lma_text_end
+                0x0000000010401c5c                _cp_ldsec_start = (_vsbtsec + _lma_ldsec_start)
+
+.rela.dyn       0x0000000002001c5c        0x0 load address 0x0000000000001c5c
+ .rela.text     0x0000000002001c5c        0x0 ./src/lib/firmware.o
+
+.ldsec          0x0000000002001c5c        0x0 load address 0x0000000000001c5c
+                0x0000000002001c5c                _vsloader = .
+ *.o(.ldsec)
+                0x0000000002001c5c                . = ALIGN (0x4)
+                0x0000000002001c5c                _eldsec = .
+                0x0000000002001c5c                _sidata = _eldsec
+                0x0000000000001c5c                _lma_ldsec_end = (_lma_ldsec_start + SIZEOF (.ldsec))
+                0x0000000010401c5c                _cp_ldsec_end = (_vsbtsec + _lma_ldsec_end)
+                0x0000000000001c5c                _lma_data_start = _lma_ldsec_end
+                0x0000000010401c5c                _cp_data_start = (_vsbtsec + _lma_data_start)
+
+.data           0x0000000001000000       0x64 load address 0x0000000000001c5c
+                0x0000000001000000                . = ALIGN (0x4)
+                0x0000000001000000                _sdata = .
+                0x0000000001000000                _ram_start = .
+                0x0000000001000000                . = ALIGN (0x4)
+ *(.data)
+ *(.data*)
+ .data.tx_buffer
+                0x0000000001000000       0x64 ./src/main.o
+                0x0000000001000000                tx_buffer
+ *(.sdata)
+ *(.sdata*)
+                0x0000000001000064                . = ALIGN (0x4)
+                0x0000000001000064                _edata = .
+                0x0000000000001cc0                _lma_data_end = (_lma_data_start + SIZEOF (.data))
+                0x0000000010401cc0                _cp_data_end = (_vsbtsec + _lma_data_end)
+
+.bss            0x0000000001000064       0x70 load address 0x0000000000001cc0
+                0x0000000001000064                . = ALIGN (0x4)
+                0x0000000001000064                _sbss = .
+ *(.bss)
+ *(.bss*)
+ .bss.rx_buffer
+                0x0000000001000064       0x64 ./src/main.o
+                0x0000000001000064                rx_buffer
+ *(.sbss)
+ *(.sbss*)
+ .sbss.irq00_flag
+                0x00000000010000c8        0x1 ./src/main.o
+                0x00000000010000c8                irq00_flag
+ .sbss.irq13_flag
+                0x00000000010000c9        0x1 ./src/main.o
+                0x00000000010000c9                irq13_flag
+ .sbss.irq20_flag
+                0x00000000010000ca        0x1 ./src/main.o
+                0x00000000010000ca                irq20_flag
+ .sbss.irq21_flag
+                0x00000000010000cb        0x1 ./src/main.o
+                0x00000000010000cb                irq21_flag
+ .sbss.timer_count
+                0x00000000010000cc        0x4 ./src/main.o
+                0x00000000010000cc                timer_count
+ .sbss.wbuart_rx_buffer
+                0x00000000010000d0        0x4 ./src/main.o
+                0x00000000010000d0                wbuart_rx_buffer
+ *(COMMON)
+                0x00000000010000d4                . = ALIGN (0x4)
+                0x00000000010000d4                _ebss = .
+
+.heap           0x00000000010000d4        0x0
+                0x00000000010000d4                . = ALIGN (0x4)
+                0x00000000010000d4                _heap_start = .
+                0x0000000000001cc0                _lma_eh_frame_start = _lma_data_end
+
+.eh_frame       0x00000000010000d4        0x0 load address 0x0000000000001cc0
+                0x00000000010000d4                . = ALIGN (0x4)
+OUTPUT(picorv32_demo.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x5580
+ .debug_info    0x0000000000000000      0xa98 ./src/lib/firmware.o
+ .debug_info    0x0000000000000a98      0xca8 ./src/lib/printf.o
+ .debug_info    0x0000000000001740      0xb27 ./src/bsp/wbgpio.o
+ .debug_info    0x0000000000002267     0x101f ./src/bsp/wbspiflash.o
+ .debug_info    0x0000000000003286      0xa67 ./src/bsp/wbuart.o
+ .debug_info    0x0000000000003ced      0xb95 ./src/irq.o
+ .debug_info    0x0000000000004882      0xcd8 ./src/main.o
+ .debug_info    0x000000000000555a       0x26 ./src/start.o
+
+.debug_abbrev   0x0000000000000000     0x11d9
+ .debug_abbrev  0x0000000000000000      0x260 ./src/lib/firmware.o
+ .debug_abbrev  0x0000000000000260      0x2ce ./src/lib/printf.o
+ .debug_abbrev  0x000000000000052e      0x233 ./src/bsp/wbgpio.o
+ .debug_abbrev  0x0000000000000761      0x315 ./src/bsp/wbspiflash.o
+ .debug_abbrev  0x0000000000000a76      0x264 ./src/bsp/wbuart.o
+ .debug_abbrev  0x0000000000000cda      0x280 ./src/irq.o
+ .debug_abbrev  0x0000000000000f5a      0x26b ./src/main.o
+ .debug_abbrev  0x00000000000011c5       0x14 ./src/start.o
+
+.debug_aranges  0x0000000000000000      0x2b8
+ .debug_aranges
+                0x0000000000000000       0x38 ./src/lib/firmware.o
+ .debug_aranges
+                0x0000000000000038       0x58 ./src/lib/printf.o
+ .debug_aranges
+                0x0000000000000090       0x50 ./src/bsp/wbgpio.o
+ .debug_aranges
+                0x00000000000000e0       0xc0 ./src/bsp/wbspiflash.o
+ .debug_aranges
+                0x00000000000001a0       0x38 ./src/bsp/wbuart.o
+ .debug_aranges
+                0x00000000000001d8       0x78 ./src/irq.o
+ .debug_aranges
+                0x0000000000000250       0x48 ./src/main.o
+ .debug_aranges
+                0x0000000000000298       0x20 ./src/start.o
+
+.debug_ranges   0x0000000000000000      0x298
+ .debug_ranges  0x0000000000000000       0x28 ./src/lib/firmware.o
+ .debug_ranges  0x0000000000000028       0x80 ./src/lib/printf.o
+ .debug_ranges  0x00000000000000a8       0x40 ./src/bsp/wbgpio.o
+ .debug_ranges  0x00000000000000e8       0xe8 ./src/bsp/wbspiflash.o
+ .debug_ranges  0x00000000000001d0       0x28 ./src/bsp/wbuart.o
+ .debug_ranges  0x00000000000001f8       0x68 ./src/irq.o
+ .debug_ranges  0x0000000000000260       0x38 ./src/main.o
+
+.debug_macro    0x0000000000000000     0x2ca5
+ .debug_macro   0x0000000000000000      0x1ef ./src/lib/firmware.o
+ .debug_macro   0x00000000000001ef      0x74e ./src/lib/firmware.o
+ .debug_macro   0x000000000000093d       0x22 ./src/lib/firmware.o
+ .debug_macro   0x000000000000095f       0x22 ./src/lib/firmware.o
+ .debug_macro   0x0000000000000981       0x8e ./src/lib/firmware.o
+ .debug_macro   0x0000000000000a0f       0x51 ./src/lib/firmware.o
+ .debug_macro   0x0000000000000a60       0xef ./src/lib/firmware.o
+ .debug_macro   0x0000000000000b4f       0x6a ./src/lib/firmware.o
+ .debug_macro   0x0000000000000bb9      0x1df ./src/lib/firmware.o
+ .debug_macro   0x0000000000000d98       0x58 ./src/lib/firmware.o
+ .debug_macro   0x0000000000000df0       0x19 ./src/lib/firmware.o
+ .debug_macro   0x0000000000000e09       0x34 ./src/lib/firmware.o
+ .debug_macro   0x0000000000000e3d       0x34 ./src/lib/firmware.o
+ .debug_macro   0x0000000000000e71       0x16 ./src/lib/firmware.o
+ .debug_macro   0x0000000000000e87       0x97 ./src/lib/firmware.o
+ .debug_macro   0x0000000000000f1e      0x330 ./src/lib/firmware.o
+ .debug_macro   0x000000000000124e       0xfd ./src/lib/firmware.o
+ .debug_macro   0x000000000000134b       0x10 ./src/lib/firmware.o
+ .debug_macro   0x000000000000135b       0x58 ./src/lib/firmware.o
+ .debug_macro   0x00000000000013b3       0x1f ./src/lib/firmware.o
+ .debug_macro   0x00000000000013d2       0x43 ./src/lib/firmware.o
+ .debug_macro   0x0000000000001415       0x20 ./src/lib/firmware.o
+ .debug_macro   0x0000000000001435      0x18e ./src/lib/firmware.o
+ .debug_macro   0x00000000000015c3       0x10 ./src/lib/firmware.o
+ .debug_macro   0x00000000000015d3       0x1c ./src/lib/firmware.o
+ .debug_macro   0x00000000000015ef       0x52 ./src/lib/firmware.o
+ .debug_macro   0x0000000000001641       0x40 ./src/lib/firmware.o
+ .debug_macro   0x0000000000001681       0x10 ./src/lib/firmware.o
+ .debug_macro   0x0000000000001691       0x40 ./src/lib/firmware.o
+ .debug_macro   0x00000000000016d1       0xd7 ./src/lib/firmware.o
+ .debug_macro   0x00000000000017a8       0x1c ./src/lib/firmware.o
+ .debug_macro   0x00000000000017c4       0x3d ./src/lib/firmware.o
+ .debug_macro   0x0000000000001801       0x16 ./src/lib/firmware.o
+ .debug_macro   0x0000000000001817      0x16f ./src/lib/firmware.o
+ .debug_macro   0x0000000000001986       0x22 ./src/lib/firmware.o
+ .debug_macro   0x00000000000019a8       0x9b ./src/lib/firmware.o
+ .debug_macro   0x0000000000001a43      0x1f2 ./src/lib/printf.o
+ .debug_macro   0x0000000000001c35       0x58 ./src/lib/printf.o
+ .debug_macro   0x0000000000001c8d      0x1db ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000001e68       0x10 ./src/bsp/wbgpio.o
+ .debug_macro   0x0000000000001e78      0x1e4 ./src/bsp/wbspiflash.o
+ .debug_macro   0x000000000000205c      0x26a ./src/bsp/wbspiflash.o
+ .debug_macro   0x00000000000022c6      0x1d6 ./src/bsp/wbuart.o
+ .debug_macro   0x000000000000249c      0x20b ./src/irq.o
+ .debug_macro   0x00000000000026a7       0x52 ./src/irq.o
+ .debug_macro   0x00000000000026f9       0x94 ./src/irq.o
+ .debug_macro   0x000000000000278d       0x57 ./src/irq.o
+ .debug_macro   0x00000000000027e4      0x23b ./src/main.o
+ .debug_macro   0x0000000000002a1f       0x16 ./src/main.o
+ .debug_macro   0x0000000000002a35      0x270 ./src/main.o
+
+.debug_line     0x0000000000000000     0x3bd9
+ .debug_line    0x0000000000000000      0x568 ./src/lib/firmware.o
+ .debug_line    0x0000000000000568      0x910 ./src/lib/printf.o
+ .debug_line    0x0000000000000e78      0x44d ./src/bsp/wbgpio.o
+ .debug_line    0x00000000000012c5      0xf4a ./src/bsp/wbspiflash.o
+ .debug_line    0x000000000000220f      0x45f ./src/bsp/wbuart.o
+ .debug_line    0x000000000000266e      0x7aa ./src/irq.o
+ .debug_line    0x0000000000002e18      0xaa6 ./src/main.o
+ .debug_line    0x00000000000038be      0x31b ./src/start.o
+
+.debug_str      0x0000000000000000     0x8d50
+ .debug_str     0x0000000000000000     0x76d3 ./src/lib/firmware.o
+                                       0x7927 (size before relaxing)
+ .debug_str     0x00000000000076d3      0x1ad ./src/lib/printf.o
+                                       0x79fb (size before relaxing)
+ .debug_str     0x0000000000007880       0xc6 ./src/bsp/wbgpio.o
+                                       0x78be (size before relaxing)
+ .debug_str     0x0000000000007946     0x1066 ./src/bsp/wbspiflash.o
+                                       0x88e4 (size before relaxing)
+ .debug_str     0x00000000000089ac       0x6d ./src/bsp/wbuart.o
+                                       0x788c (size before relaxing)
+ .debug_str     0x0000000000008a19      0x18b ./src/irq.o
+                                       0x7a11 (size before relaxing)
+ .debug_str     0x0000000000008ba4      0x191 ./src/main.o
+                                       0x87c6 (size before relaxing)
+ .debug_str     0x0000000000008d35       0x1b ./src/start.o
+                                         0x40 (size before relaxing)
+
+.comment        0x0000000000000000       0x39
+ .comment       0x0000000000000000       0x39 ./src/lib/firmware.o
+                                         0x3a (size before relaxing)
+ .comment       0x0000000000000039       0x3a ./src/lib/printf.o
+ .comment       0x0000000000000039       0x3a ./src/bsp/wbgpio.o
+ .comment       0x0000000000000039       0x3a ./src/bsp/wbspiflash.o
+ .comment       0x0000000000000039       0x3a ./src/bsp/wbuart.o
+ .comment       0x0000000000000039       0x3a ./src/irq.o
+ .comment       0x0000000000000039       0x3a ./src/main.o
+
+.debug_frame    0x0000000000000000      0x8b0
+ .debug_frame   0x0000000000000000       0xa0 ./src/lib/firmware.o
+ .debug_frame   0x00000000000000a0      0x15c ./src/lib/printf.o
+ .debug_frame   0x00000000000001fc       0xf0 ./src/bsp/wbgpio.o
+ .debug_frame   0x00000000000002ec      0x2a4 ./src/bsp/wbspiflash.o
+ .debug_frame   0x0000000000000590       0x94 ./src/bsp/wbuart.o
+ .debug_frame   0x0000000000000624      0x194 ./src/irq.o
+ .debug_frame   0x00000000000007b8       0xf8 ./src/main.o

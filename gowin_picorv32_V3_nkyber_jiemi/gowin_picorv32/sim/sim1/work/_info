@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/APP/modeltech64_10.4/gowin/gw2a
+vahbreg_demo
+Z0 !s110 1667902407
+!i10b 1
+!s100 9:L]BeZgh4oN>l9;YKPMe3
+I5HNT@D[g2zNn_HInH56[z2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/sim/sim1
+w1667900259
+8C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/ahbreg.v
+FC:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/ahbreg.v
+L0 2
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1667902407.267000
+!s107 C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/ahbreg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/ahbreg.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vGowin_MULT
+R0
+!i10b 1
+!s100 A:SUaGY78iT5PY]LCP@WP2
+IQAS0I]IFE6cnETA_M8Z602
+R1
+R2
+w1667389150
+8C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/gowin_mult/gowin_mult.v
+FC:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/gowin_mult/gowin_mult.v
+L0 9
+R3
+r1
+!s85 0
+31
+!s108 1667902407.679000
+!s107 C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/gowin_mult/gowin_mult.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/gowin_mult/gowin_mult.v|
+!i113 0
+R4
+n@gowin_@m@u@l@t
+vkey_gen
+R0
+!i10b 1
+!s100 iC42WS6`00ffGMzz86Bzm1
+I[8Vl1@9Dc0M3a2AMLML021
+R1
+R2
+w1667615970
+8C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/key_gen.v
+FC:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/key_gen.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1667902407.336000
+!s107 C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/key_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/key_gen.v|
+!i113 0
+R4
+vmulti_mod
+R0
+!i10b 1
+!s100 oeUbCKo23JCiX;>94[UCz2
+IWn>31h6_jm;4ICSYh@Qlm3
+R1
+R2
+w1667462524
+8C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/multi_mod.v
+FC:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/multi_mod.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1667902407.430000
+!s107 C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/multi_mod.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/multi_mod.v|
+!i113 0
+R4
+vRSA_top
+R0
+!i10b 1
+!s100 Ea4eKj]R=0@92K^0z5U5m2
+I:L=nb?zMdk4P;moj4GIfO1
+R1
+R2
+w1667734238
+8C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/RSA_top.v
+FC:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/RSA_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1667902407.521000
+!s107 C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/RSA_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/RSA/RSA_top.v|
+!i113 0
+R4
+n@r@s@a_top
+vtb_RSA
+R0
+!i10b 1
+!s100 f]PlYz=OCOnBZQS7c3dhI0
+IIfW2V;FUej3GWez;O;SzQ2
+R1
+R2
+w1667901072
+8C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/tb_ahbreg.v
+FC:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/tb_ahbreg.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1667902407.806000
+!s107 C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/tb_ahbreg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Program D/kyber/Gowin_PicoRV32/Gowin_Picorv32_V1.2/ref_design/FPGA_RefDesign/DK_START_GW2A18_V2.0/gowin_picorv32/src/tb_ahbreg.v|
+!i113 0
+R4
+ntb_@r@s@a

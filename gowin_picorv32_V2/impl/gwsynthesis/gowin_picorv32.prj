@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\RSA\RSA_top.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\RSA\gowin_mult\gowin_mult.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\RSA\key_gen.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\RSA\multi_mod.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\ahbreg.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\button.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\fifo_hs\fifo_hs.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\gowin_picorv32\gowin_picorv32.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\LUT.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\NTT_core_Client.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_0.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_1.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_11.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_2.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_3.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_4.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_5.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_6.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_8.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RAM_based_shift_reg_top\c_shift_ram_9.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\_to_32bits.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\butterfly_Client.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\decode_Client.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\decode_keccak.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\encode_Client.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_0.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_1.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_2.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_3.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_4.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_5.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_6.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_7.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\fifo_sc_hs\fifo_generator_8.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_mult\mult_gen_0.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_prom\dist_mem_gen_0.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_prom\dist_mem_gen_1.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_prom\dist_mem_gen_5.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_prom\dist_mem_gen_6.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_prom\dist_mem_gen_7.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_sdpb\blk_mem_gen_0.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_sdpb\blk_mem_gen_1.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\gowin_sdpb\blk_mem_gen_2.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\hash_core_Client.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\kerber_top.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\keyber_client.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\mux4to2.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\pattern.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\pw_top _ahb.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\reduc.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\picorv32_top.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\tb_ahbreg.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\fifo_sc_hs\fifo_sc_hs.v" type="verilog"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\Keccak1600.vhd" type="vhdl"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\RegisterFDRE.vhd" type="vhdl"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\Round.vhd" type="vhdl"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\StateMachine.vhd" type="vhdl"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\chi.vhd" type="vhdl"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\iota.vhd" type="vhdl"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\pi.vhd" type="vhdl"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\rho.vhd" type="vhdl"/>
+        <File path="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\src\kyber\theta.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Program D\kyber\Gowin_PicoRV32\gowin_picorv32_V2\impl\gwsynthesis\gowin_picorv32.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="Gowin_PicoRV32_template"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-2008"/>
+    </OptionList>
+</Project>

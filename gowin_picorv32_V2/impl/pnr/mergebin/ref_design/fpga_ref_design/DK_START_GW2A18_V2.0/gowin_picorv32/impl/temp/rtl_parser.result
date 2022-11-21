@@ -1,0 +1,166 @@
+[
+ {
+  "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/picorv32_top.v",
+  "InstLine" : 4,
+  "InstName" : "Gowin_PicoRV32_template",
+  "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/picorv32_top.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "Gowin_PicoRV32_template",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 125,
+    "InstName" : "irq_20_button",
+    "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/button.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "button"
+   },
+   {
+    "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 132,
+    "InstName" : "irq_21_button",
+    "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/button.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "button"
+   },
+   {
+    "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 140,
+    "InstName" : "Gowin_PicoRV32_Top_inst",
+    "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+    "ModuleLine" : 40706,
+    "ModuleName" : "Gowin_PicoRV32_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43204,
+      "InstName" : "core",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "picorv32"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43327,
+      "InstName" : "u_dm",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "s_debug_module"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43378,
+      "InstName" : "itcm",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "picosoc_itcm"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43390,
+      "InstName" : "dtcm",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "picosoc_dtcm"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43415,
+      "InstName" : "simpleuart",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "simpleuart"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43441,
+      "InstName" : "wb",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wishbone_bus"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43482,
+      "InstName" : "wb_intercon",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wisbhone_intercon"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43528,
+      "InstName" : "wbuart_ins",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wbuart"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43547,
+      "InstName" : "wbgpio_ins",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wb_gpio"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43598,
+      "InstName" : "wbspi_master_0",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wbspi"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43628,
+      "InstName" : "wbspi_slave",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "wbspi_0"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43661,
+      "InstName" : "wbi2c_ins",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "i2c_master_top"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43685,
+      "InstName" : "u_dualportspi",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "advspi_top"
+     },
+     {
+      "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "InstLine" : 43719,
+      "InstName" : "ahb_interface",
+      "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/gowin_picorv32/gowin_picorv32.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ahb_bus"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 189,
+    "InstName" : "wbreg_demo_inst",
+    "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/wbreg.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "wbreg_demo"
+   },
+   {
+    "InstFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/picorv32_top.v",
+    "InstLine" : 203,
+    "InstName" : "ahbreg_demo_inst",
+    "ModuleFile" : "C:/Users/liukai/Desktop/gowin_picorv32/src/ahbreg.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "ahbreg_demo"
+   }
+  ]
+ }
+]

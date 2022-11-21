@@ -1,0 +1,277 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/RSA/RSA_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/RSA/gowin_mult/gowin_mult.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/RSA/key_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/RSA/multi_mod.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/ahbreg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/button.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/fifo_hs/fifo_hs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/gowin_picorv32/gowin_picorv32.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/LUT.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/NTT_core_Client.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_0.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_11.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_5.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_6.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_8.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RAM_based_shift_reg_top/c_shift_ram_9.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/_to_32bits.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/butterfly_Client.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/decode_Client.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/decode_keccak.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/encode_Client.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_0.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_5.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_6.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_7.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/fifo_sc_hs/fifo_generator_8.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_mult/mult_gen_0.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_prom/dist_mem_gen_0.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_prom/dist_mem_gen_1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_prom/dist_mem_gen_5.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_prom/dist_mem_gen_6.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_prom/dist_mem_gen_7.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_sdpb/blk_mem_gen_0.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_sdpb/blk_mem_gen_1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/gowin_sdpb/blk_mem_gen_2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/hash_core_Client.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/kerber_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/keyber_client.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/mux4to2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/pattern.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/pw_top _ahb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/reduc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/picorv32_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/tb_ahbreg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/fifo_sc_hs/fifo_sc_hs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/Keccak1600.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/RegisterFDRE.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/Round.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/StateMachine.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/chi.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/iota.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/pi.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/rho.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/src/kyber/theta.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Program D/kyber/Gowin_PicoRV32/gowin_picorv32_V2/impl/temp/rtl_parser.result",
+ "Top" : "Gowin_PicoRV32_template",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_2008"
+}

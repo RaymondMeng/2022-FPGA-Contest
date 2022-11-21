@@ -1,6 +1,7 @@
 `timescale 1ns / 1ps
 module Kyber_top(
-    input         clk, rst, start,
+    input         clk, rst, 
+    input [1:0] start,
     input  [2:0]  k,
     output        ready_pk, ready_c,
     output        req_pk, req_c,
@@ -37,9 +38,8 @@ Kyber_Client C(
 .req_pk(req_pk),
 .req_c(req_c),
 .valid(valid_client),
-.dout(dout_client),
-.m_in(m),
-.m_ready(m_ready)
+.dout(),
+.real_dout(dout_client)
 );
 
 endmodule
